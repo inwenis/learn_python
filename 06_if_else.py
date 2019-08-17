@@ -3,20 +3,25 @@ cur_year = 2019
 print("what year were you born? (type it and press [enter])")
 bth_year_as_text = input()
 bth_year = int(bth_year_as_text)
-if cur_year - bth_year_as_text > 18:
+if cur_year - bth_year > 18:
     print("let's get a beer!")
     # like with a while loop code must be indended
     # there can be many lines of code here
     print("since you're 18")
 
+
 # to execute some code when our condition is not meet use an "else":
-# to check if two values are equal we use "=="
-print("do you like pyton? (type yes/no and press [enter])")
-answer = input()
-if answer == "yes":
-    print("no wonder!")
+print("----- same code now with an 'else' ------")
+cur_year = 2019
+print("what year were you born? (type it and press [enter])")
+bth_year_as_text = input()
+bth_year = int(bth_year_as_text)
+if cur_year - bth_year > 18:
+    print("let's get a beer!")
+    print("since you're 18")
 else:
-    print("I'll give you one more try")
+    print("no beers for you my friend!")
+
 
 # we can check for multiple conditions with elif:
 print("do you like pyton? (type yes/maybe/no and press [enter])")
@@ -40,14 +45,14 @@ if happiness > 5:
         print("happy!")
         i = i + 1
 
-# exercie 1: modify the asterisks-triangle program so that it will not
-# print triangles higher than 20. When the user input a number greater
-# than 20 we should inform him that the number is too large
+# exercie 1: modify the asterisks-triangle program so that it will
+# not print triangles higher than 20. When the user input a number
+# greater than 20 we should inform him that the number is too large
 
 # exercise 2: modify the asterisks-triangle program so that it will
-# also print triangles of height 20-30 but preceed them with a message:
-# "you're quite demanding, but I'll manage!"
+# also print triangles of height 20-30 but preceed them with a
+# message: "you're quite demanding, but I'll manage!"
 
 # exercise 3: extend the asterisks-triangle program so that it will
-# also print triangles of height 30-40 but preceed them with a message:
-# "watch out! you're near the limit!"
+# also print triangles of height 30-40 but preceed them with a
+# message: "watch out! you're near the limit!"

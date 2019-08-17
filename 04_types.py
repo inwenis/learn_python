@@ -3,10 +3,11 @@
 # int - integer (numbers like 1, 2, 100, 5, 0, -1, -20)
 # str - string, text ("this", "or", "just any text")
 # float - fractional numer (3.14, 20.0, 21.154)
-# list - a list storing multiple variabes (we'll cover this later)
+# list - a list stores multiple variabes (we'll cover this later)
 
 # to ask Python for a type of a variable we use... type()
 
+# TODO - this asks for type of value not variable
 print(type(123))
 print(type(12.3))
 print(type("hello"))
@@ -20,15 +21,17 @@ print(type(x))
 # some strings can be converted to a int using int()
 # some strings can be converted to a float using float()
 
-some_text = "123"
-number = int(some_text)
-print("some_text is of type:")
-print(type(some_text))
-print("number is of type:")
-print(type(number))
+a = "123"
+b = int(a)
+print("variable a is of type:")
+print(type(a))
+print("variable b is of type:")
+print(type(b))
 
-# exercise 1: create variables of different types and display their types and vlaues
+# exercise 1: create variables of different types and display their
+# types and values
 
 
 # exercise 2: since you know how to convert text to numbers:
-# go back to 03_input and fix exercise 2 so that number are actually added
+# go back to 03_input.py and fix exercise 2 so that numbers are
+# actually added
