@@ -1,0 +1,22 @@
+# input() will make the program stop and wait for the user to input some text and press [enter]
+# input() will return text inputed by the user, we can store it in a variable (see below)
+# variables can be used in various ways, see below how to concatenate text and display it
+# usually before a input() we use a print() to let the user know that we expect him to type something
+print("Please describe today's weather and press [enter]")
+weather_desc = input()
+weather_desc_with_wow = "WOW! Is is really " + weather_desc + "? I love this kind of weather!"
+print(weather_desc_with_wow)
+
+print("What country are you from?")
+ctry = input()
+print("What city are you from?")
+city = input()
+msg = ctry + city
+print("so you're from " + msg)
+
+# exercise 1: write a program which will ask the user for his/hers name and reply with a "Hello [name here]! I'm flattered to meet you."
+# tip: you can "comment out" the code above so you're not asked for the weater every time
+
+
+# exercise 2: write a program which will ask the user for two numbers, add them and display the sum
+# is the result as you expected?
