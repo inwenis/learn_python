@@ -20,6 +20,15 @@ city = input()
 msg = ctry + city
 print("so you're from " + msg)
 
+# Since the user can type anything in the console, we never know if
+# the user actually typed a number or some text. This is why input()
+# always returns a str and we have to convert it to a int.
+print("What year were you born in?")
+y_as_text = input()
+y = int(y_as_text)
+age = 2019 - y
+print("You are: " + str(age) + " (if it's still 2019)")
+
 # exercise 1: write a program which will ask the user for his/hers
 # name and reply with a:
 # "Hello [name here]! I'm flattered to meet you."
@@ -27,10 +36,15 @@ print("so you're from " + msg)
 # tip: you can "comment out" the code above so you're not asked for
 # the weater every time. To "comment out" means to preceed a line of
 # code with a # sign so that python will treat it as a comment and
-# ignore it
+# ignore it.
 
 
 # exercise 2: write a program which will ask the user for two
-# numbers, add them and display the sum
+# numbers, add them and display the sum. Make sure you're actually
+# adding the numbers, not concatenating them.
 
-# Question: is the result as you expected?
+
+# exercise 3: write a program which will ask the user for his/hers
+# weight (in kilograms) and weight (in meters) and compute BMI*.
+# *BMI - Body Mass Index, a convinient rule of thumb allowing to
+# categorize a persons weight. BMI = weight / (height * height)

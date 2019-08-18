@@ -1,5 +1,8 @@
-TODO - if/else should be before loops
 more data types faster
+look for some existing python course, see how they teach basics
+
+TODO - if/else should be before loops
+
 types conversion faster
 more info on logical conditions, == >= or and
 first introduce the for loop, later the while loop
@@ -15,3 +18,25 @@ if answer == "yes":
     print("no wonder!")
 else:
     print("I'll give you one more try")
+
+# a "while" loop can be nested under an "if"
+# a "if/elif/else" can also be nested under a "while" loop
+print("on a 1-10 scale, how well are you today? (type and press [enter])")
+happiness = int(input())
+if happiness > 5:
+    i = 0
+    while i < happiness:
+        print("happy!")
+        i = i + 1
+
+# exercie 1: modify the asterisks-triangle program so that it will
+# not print triangles higher than 20. When the user input a number
+# greater than 20 we should inform him that the number is too large
+
+# exercise 2: modify the asterisks-triangle program so that it will
+# also print triangles of height 20-30 but preceed them with a
+# message: "you're quite demanding, but I'll manage!"
+
+# exercise 3: extend the asterisks-triangle program so that it will
+# also print triangles of height 30-40 but preceed them with a
+# message: "watch out! you're near the limit!"

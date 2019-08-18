@@ -7,8 +7,12 @@ x = 123
 # Whenever we would like to access this value we need to use the
 # variable name "x".
 print(x)
+# Important!
+# Notice that print("x") means something different than print(x)
+# The former tells python to display the text "x", where as the
+# latter tells python to display the value of varaible x.
 
-# We can create as many variables as we want.
+# We can create as many variables as we need.
 y = 42
 z = 50
 the_greatest = 999
@@ -32,3 +36,6 @@ print(welcome_message + " in " + current_year)
 # exercise 1: create two variables, assign some big numbers to them
 # and print their sum, difference, product (multiplication),
 # quotient (division)
+
+# exercise 2: create two variables, assgin some text to them and
+# display the concatenated text.

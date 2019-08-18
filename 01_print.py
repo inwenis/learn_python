@@ -22,7 +22,7 @@ print("like stars *******, numbers: 1,2,42,999")
 # is ignored by python. The hash sign # begins a comment - text
 # ignored by the python interpreter. Programmers use comments to
 # describe what the code is intended to do, or why it was written.
-# Below some examples of comments you might find in actual code:
+# Below some examples of comments you might find in enterprise code:
 
 # compute and display total debt for a customer
 
@@ -30,4 +30,4 @@ print("like stars *******, numbers: 1,2,42,999")
 # (I have no idea why, but finance department demanded it)
 
 # shipping department has a bug in their system, this wierd code is
-# a workaround, remove once shipping systme is fixed!
+# a workaround, remove once shipping system is fixed!
