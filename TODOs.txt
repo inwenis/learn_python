@@ -1,3 +1,5 @@
+try run it all
+
 more data types faster
 look for some existing python course, see how they teach basics
 
