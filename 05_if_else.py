@@ -26,17 +26,35 @@ else:
     print("no beers for you my friend!")
 
 
+# Important!
+# The value stored in a variable can be updated/changed. We can
+# change it's value as many times as required:
+x = 10
+print(x) # x is now 10
+x = 50
+print(x) # x is now 50
+# we can even use the current value of x, add something to it and
+# store it back to x
+x = x + 3
+print(x) # x is now 53
+
+# The same applies to str variables and any other types
+a = "I like"
+a = a + " apples"
+print(a)
+
+
 # we can check for multiple conditions with elif:
-print("do you like pyton? (type yes/maybe/no and press [enter])")
+p = 50
+print("p is now " + str(p) + ". Would you like to add/remove 1 from it?")
 answer = input()
-if answer == "yes":
-    print("no wonder!")
-elif answer == "maybe":
-    print("love needs its time")
-elif answer == "no":
-    print("I don't belive you")
+if answer == "add":
+    p = p + 1
+elif answer == "remove":
+    p = p - 1
 else:
-    print("what do you mean by: '" + answer + "' ?")
+    print("sorry, what do you mean by " + answer + " ?")
+print("p is now " + str(p))
 # notice that to check if two vlaues are equal we use "==" . This is
 # beacuse the single equal sign "=" already means "assign value" in
 # Python.
