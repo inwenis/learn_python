@@ -34,7 +34,7 @@ j = 91.001
 d = i + j
 
 hamlet_beg = "To be or "
-hamlet_all = hamlet_all + " to code is the question!"
+hamlet_all = hamlet_beg + " to code is the question!"
 
 # But we can not add int to str. If you uncomment the line below
 # Python will complaing that it does not know how to add a int and
