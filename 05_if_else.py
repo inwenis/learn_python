@@ -60,7 +60,7 @@ print("p is now " + str(p))
 # Python.
 
 # conditions can be nested:
-print("have you slept well today? (type yes/no and press [enter])")
+print("did you sleep well today? (type yes/no and press [enter])")
 slept_well = input()
 if slept_well == "yes":
     print("I'm happy for you")
