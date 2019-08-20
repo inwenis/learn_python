@@ -31,7 +31,16 @@ for h in numpy.arange(1.5, 2, 0.020)[::-1]:
 
 
         # ------- you should not modify below below this line -------
+        color_code = ""
+        if bmi_symbol == "<":
+            color_code = "\u001b[31;1m" # bright red
+        elif bmi_symbol == "`":
+            color_code = "\u001b[33m" # yellow
+        elif bmi_symbol == "^":
+            color_code = "\u001b[31m" # red
+        print(color_code, end = "")
         print(bmi_symbol, end = "")
+        print("\u001b[0m", end = "") # reset color
     print()
 
 print("      ", end="")
