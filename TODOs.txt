@@ -12,6 +12,10 @@ more exercises
 also exercises "what will this code output?"
 explain difference between print(x) and print("x")
 
+exercise with fixing errors
+more details about lists/types without so many explanations
+once funciton are defined. Note that some funciton are invoked on
+variables like list.sort()
 
 # to check if two values are equal we use "=="
 print("do you like pyton? (type yes/no and press [enter])")
