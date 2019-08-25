@@ -99,7 +99,7 @@ if age >= 20 and age <= 29:
 # | Category                                BMI (kg/m2)
 # |                                       | from | to   |
 # -------------------------------------------------------
-# | Very severely underweight             | 15   | 0.60 |
+# | Very severely underweight             |      | 15   |
 # | Severely underweight                  | 15   | 16   |
 # | Underweight                           | 16   | 18.5 |
 # | Normal (healthy weight)               | 18.5 | 25   |
@@ -109,4 +109,4 @@ if age >= 20 and age <= 29:
 # | Obese Class III (Very severely obese) | 40   | 45   |
 # | Obese Class IV (Morbidly Obese)       | 45   | 50   |
 # | Obese Class V (Super Obese)           | 50   | 60   |
-# | Obese Class VI (Hyper Obese)          | 60   | 2.4  |
+# | Obese Class VI (Hyper Obese)          | 60   |      |
