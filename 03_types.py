@@ -1,10 +1,10 @@
 # Previously we have created variables and assigned different values
-# to them. Both text values and numbers
+# to them. Both text values and numbers.
 x = 42
 y = "Hello World"
 
 # Python distinguishes types of vlaues.
-# Varaible x stores a integer. An integer is a whole number with out
+# Varaible x stores an integer. An integer is a whole number without
 # fractions. The name "integer" is often abbrevianted as "int"
 # Variable y stores a string variable. A string is text. The name
 # "string" is often abbreviated as "str"
@@ -49,8 +49,8 @@ hamlet_all = hamlet_beg + " to code is the question!"
 # How to convert one type to another?
 
 # Sometimes we will have text containing numbers and would like to
-# add it like a int. Sometimes we wil want to display value of a
-# int variable like in line 44.
+# add it like a int. Sometimes we want to display value of a int
+# variable like in line 45.
 
 # For this purpose Python offers function converting values to other
 # types
