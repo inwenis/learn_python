@@ -13,7 +13,16 @@ below.
 Hint: the [modulo](https://en.wikipedia.org/wiki/Modulo_operation)
 operation will be useful for this exercise. Python uses the `%` sign
 for modulo operaiton.
-
+## Solution
+```Python
+print("Please type in a number which will be tested for parity")
+text_input = input()
+x = int(text_input)
+if x % 2 == 0:
+    print("Number " + str(x) + " is even")
+else:
+    print("Number " + str(x) + " is odd")
+```
 # Exercise 2 - Napoleon is history
 Write a program which will ask the user for his/hers birth date and
 print out when the user "turned"/"will turn" 18, 30, 50, 100 years
