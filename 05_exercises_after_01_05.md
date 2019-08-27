@@ -46,7 +46,7 @@ Example:
 > 1.75
 ```
 
-# Exercise 3 - Compound interest
+# Exercise 4 - Compound interest
 Write a program which will compute the interest for a bank deposit.
 The program should ask the user for:
 - deposit sum
