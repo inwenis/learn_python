@@ -31,7 +31,6 @@ for h in numpy.arange(1.5, 2, 0.020)[::-1]:
 
 
         # ------- you should not modify below below this line -------
-        color_code = ""
         print(bmi_symbol, end = "")
     print()
 
