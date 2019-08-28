@@ -64,7 +64,7 @@ Example:
 > Interest rate: 20%
 > Period of deposit: 6 months
 > Interest: 100
-> Ttotal account after 6 months: 1100
+> Total account after 6 months: 1100
 ```
 
 ### Ad 1.
