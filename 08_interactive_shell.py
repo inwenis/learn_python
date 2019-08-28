@@ -85,3 +85,10 @@
 # The windows which you usually use to configure you computer are
 # also considered a "shell". Those windows are a Graphical shell
 # allowing you to change setting of the OS.
+# Programmers like to give fancy names to things they create, so be
+# aware that a shell is just another program writted by some
+# programmers with a very specific purpose of configuring computers
+# or talking to the OS.
+
+# exercise 1: Create a list of numbers and sum them in the
+# interactive shell
