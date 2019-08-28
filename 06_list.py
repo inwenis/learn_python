@@ -107,8 +107,9 @@ print("min = " + str(min))
 
 
 # exercise 6: Check if a number provided by the user is prime. A
-# prime number is number which can only be divided without a reminder
-# only by itself or 1. Examples of prime numbers: 2, 3, 5, ..., 79.
+# prime number is a number which can only be divided without a
+# reminder only by itself or 1.
+# Examples of prime numbers: 2, 3, 5, ..., 79.
 
 # Hot to check if a number x is prime?
 # One solution is to loop over numbers from 2 to x-1 and check if x
