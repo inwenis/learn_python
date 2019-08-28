@@ -61,7 +61,7 @@ for x in numbers:
     if x % 2 == 0: # the % sign means the modulo operation*
         print(str(x) + " is even")
 
-# The module operation return the reminder after division. Examples:
+# *The modulo operation return the reminder after division. Examples:
 # 9 % 5 = 4
 # 7 % 2 = 1
 # 4 % 2 = 0
@@ -84,17 +84,18 @@ print("min = " + str(min))
 # exericse 1: Create a list with names of months and display all of
 # them.
 
-# exercise 1: Display all odd numbers from 1 to 50.
+
+# exercise 2: Display all odd numbers from 1 to 50.
 
 
-# exercise 2: Sum all numbers in range 1 to 100.
+# exercise 3: Sum all numbers in range 1 to 100.
 
 
-# exercise 3: Create a list filled with random numbers. Find the
+# exercise 4: Create a list filled with random numbers. Find the
 # largest nmber in that list.
 
 
-# exercise 4: Display a rectangle from * with width and height
+# exercise 5: Display a rectangle from * with width and height
 # specified by the user. Example:
 # please provide width:
 # 7
@@ -105,9 +106,10 @@ print("min = " + str(min))
 # *******
 
 
-# exercise 5: Check if a number provided by the user is prime. A
-# prime number is number which can only be divided without a reminder
-# only by itself or 1. Examples of prime numbers: 2, 3, 5, ..., 79.
+# exercise 6: Check if a number provided by the user is prime. A
+# prime number is a number which can only be divided without a
+# reminder only by itself or 1.
+# Examples of prime numbers: 2, 3, 5, ..., 79.
 
 # Hot to check if a number x is prime?
 # One solution is to loop over numbers from 2 to x-1 and check if x
