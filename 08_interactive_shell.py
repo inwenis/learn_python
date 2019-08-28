@@ -44,8 +44,8 @@
 # use the correct indentation level.
 
 # > python
-# >>> l = ["A", 42, 24, "monkey"]
-# >>> for character in l:
+# >>> my_list = ["A", 42, 24, "monkey"]
+# >>> for character in my_list:
 # ...     print(character)
 # ...                          <-- at this point if you press [enter]
 #                                  leaving an empty line, your for
@@ -82,3 +82,6 @@
 # > Write-Host 'Hello World' -BackgroundColor Red
 # This would output the text 'Hello World' on a red background. This
 # is nearly impossible in a cmd.
+# The windows which you usually use to configure you computer are
+# also considered a "shell". Those windows are a Graphical shell
+# allowing you to change setting of the OS.
