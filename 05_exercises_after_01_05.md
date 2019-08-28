@@ -112,6 +112,27 @@ Example:
 > 1.75
 ```
 
+## Solution
+```Python
+a = int(input("Number A:"))
+b = int(input("Number B:"))
+print("Select operation + - / * %")
+operator = input()
+if operator == "+":
+    result = a + b
+elif operator == "-":
+    result = a - b
+elif operator == "/":
+    result = a / b
+elif operator == "*":
+    result = a * b
+elif operator == "%":
+    result = a % b
+else:
+    print("operator '" + operator + "' is unsupported")
+print(result)
+```
+
 # Exercise 4 - Compound interest
 Write a program which will compute the interest for a bank deposit.
 The program should ask the user for:
