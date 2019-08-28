@@ -61,7 +61,7 @@ for x in numbers:
     if x % 2 == 0: # the % sign means the modulo operation*
         print(str(x) + " is even")
 
-# The module operation return the reminder after division. Examples:
+# *The modulo operation return the reminder after division. Examples:
 # 9 % 5 = 4
 # 7 % 2 = 1
 # 4 % 2 = 0
