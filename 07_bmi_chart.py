@@ -23,24 +23,18 @@ for h in numpy.arange(1.5, 2, 0.020)[::-1]:
 
         # modify the below if/else so correct characters are assigned
         # to bmi_symbol depending on value of BMI
-        if w < 100:
+        bmi = w / (h*h)
+        if bmi < 18:
             bmi_symbol = "<"
-        elif h > 1.8:
-            bmi_symbol = "t"
-
-
+        elif bmi < 25:
+            bmi_symbol = " "
+        elif bmi < 29:
+            bmi_symbol = "x"
+        else:
+            bmi_symbol = "^"
 
         # ------- you should not modify below below this line -------
-        color_code = ""
-        if bmi_symbol == "<":
-            color_code = "\u001b[31;1m" # bright red
-        elif bmi_symbol == "`":
-            color_code = "\u001b[33m" # yellow
-        elif bmi_symbol == "^":
-            color_code = "\u001b[31m" # red
-        print(color_code, end = "")
         print(bmi_symbol, end = "")
-        print("\u001b[0m", end = "") # reset color
     print()
 
 print("      ", end="")
