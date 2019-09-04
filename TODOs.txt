@@ -1,29 +1,26 @@
-try run it all
+functions
+datetime
+while
+classes
+character details
+more on lists
+dictionaries
+tuple/sets
+lambda
+array
+classes
+try except
+files
 
-more data types faster
 look for some existing python course, see how they teach basics
 
-TODO - if/else should be before loops
-
-types conversion faster
-more info on logical conditions, == >= or and
-first introduce the for loop, later the while loop
 more exercises
 also exercises "what will this code output?"
-explain difference between print(x) and print("x")
 
 exercise with fixing errors
 more details about lists/types without so many explanations
 once funciton are defined. Note that some funciton are invoked on
 variables like list.sort()
-
-# to check if two values are equal we use "=="
-print("do you like pyton? (type yes/no and press [enter])")
-answer = input()
-if answer == "yes":
-    print("no wonder!")
-else:
-    print("I'll give you one more try")
 
 # a "while" loop can be nested under an "if"
 # a "if/elif/else" can also be nested under a "while" loop
