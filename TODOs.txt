@@ -1,6 +1,7 @@
 1. more on lists
 
 text is list
+string split
 data structures
 functions
 datetime

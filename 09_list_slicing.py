@@ -100,3 +100,7 @@ languages = ["C#", "Java", "Python", "JavaScript", "C", "C++", "Ruby"]
 # print(languages[::-1])
 # print(languages[::-3])
 
+# exercise 3: Write a program which will ask the user for a number N.
+# Then the program will compute the sum of all even numbers from
+# 0 to N.
+
