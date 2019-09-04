@@ -11,6 +11,10 @@ array
 classes
 try except
 files
+module/packages/pip
+regex
+working with excel
+break/continue
 
 look for some existing python course, see how they teach basics
 
