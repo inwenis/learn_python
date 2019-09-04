@@ -1,5 +1,7 @@
 1. more on lists
 
+text is list
+data structures
 functions
 datetime
 while
