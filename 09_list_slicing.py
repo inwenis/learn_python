@@ -104,3 +104,8 @@ languages = ["C#", "Java", "Python", "JavaScript", "C", "C++", "Ruby"]
 # Then the program will compute the sum of all even numbers from
 # 0 to N.
 
+# exercise 4: Create a list with random numbers. Print only numbers
+# greater than 10.
+
+# exercise 5: Write a program whcih will ask the user for a number N
+# and print numbers from 1, 2, 3, 4,... untill their sum exceeds N
