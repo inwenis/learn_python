@@ -3,8 +3,8 @@
 x = 42
 y = "Hello World"
 
-# Python distinguishes types of vlaues.
-# Varaible x stores an integer. An integer is a whole number without
+# Python distinguishes types of values.
+# Variable x stores an integer. An integer is a whole number without
 # fractions. The name "integer" is often abbrevianted as "int"
 # Variable y stores a string variable. A string is text. The name
 # "string" is often abbreviated as "str"
