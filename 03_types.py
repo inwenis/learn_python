@@ -43,7 +43,7 @@ hamlet_all = hamlet_beg + " to code is the question!"
 
 # For this reason we can not have a print statement like below
 # print("the value of x is " + x)
-# if you uncomment it python will complaing "can not add str to int"
+# if you uncomment it python will complain "can not add str to int"
 
 
 # How to convert one type to another?
