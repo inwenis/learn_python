@@ -83,8 +83,8 @@ p_double = float(p) * 2
 print("Value of p_double: " + str(p_double))
 
 # Note that since you can pass any text to int() and float() it is
-# possible that we accidentally will pass some unconverable text to
-# int() or float(). If this happens python will "throw an excetpion",
+# possible that we accidentally will pass some unconvertable text to
+# int() or float(). If this happens python will "throw an exception",
 # display an error message and stop execution.
 
 # uncomment the following lines to see what happens
