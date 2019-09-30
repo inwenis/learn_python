@@ -37,7 +37,7 @@ hamlet_beg = "To be or "
 hamlet_all = hamlet_beg + " to code is the question!"
 
 # But we can not add int to str. If you uncomment the line below
-# Python will complaing that it does not know how to add a int and
+# Python will complain that it does not know how to add a int and
 # str.
 # d = x + hamlet_beg
 
