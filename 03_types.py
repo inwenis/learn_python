@@ -15,7 +15,7 @@ y = "Hello World"
 g = 4.2
 z = 12.001
 
-# this is a boolean variable, it can ony store True or False. Often
+# this is a boolean variable, it can only store True or False. Often
 # abbreviated as "bool"
 u = True
 j = False
