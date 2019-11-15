@@ -53,6 +53,7 @@ for x in numbers:
         # notice that since the above print is indented twice it's
         # part of the inner loop. The inner loop will be executed
         # for every x in "numbers".
+
         # print(..., end="") tell python to display some text to the
         # console but does not move the cursor to next line
     print() # an empty print() moves the cursor to next line

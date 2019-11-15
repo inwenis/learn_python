@@ -59,7 +59,7 @@ print("p is now " + str(p))
 # beacuse the single equal sign "=" already means "assign value" in
 # Python.
 
-# conditions can be nested:
+# if/else statements can be nested:
 print("did you sleep well today? (type yes/no and press [enter])")
 slept_well = input()
 if slept_well == "yes":
@@ -70,9 +70,9 @@ else:
     if watched_youtube == "yes":
         print("That's wise")
     else:
-        print("maybe that's the issue?")
+        print("maybe that's the reason you didn't sleep well?")
 
-# What kind of check can we have in a "if" or "elif"?
+# What kind of checks can we use in a "if" or "elif"?
 # - test if values are equal ==
 # - test if greater          >
 # - test if less             <
