@@ -1,4 +1,5 @@
-# lists in python allow us to store many values in a single variable
+# lists in python allow us to store multiple values in a single
+# variable
 fruits = ["apple", "carrot", "banana"]
 primes = [2, 3, 5, 7, 11, 13, 17]
 
