@@ -110,5 +110,5 @@ languages = ["C#", "Java", "Python", "JavaScript", "C", "C++", "Ruby"]
 # greater than 10.
 
 
-# exercise 5: Write a program whcih will ask the user for a number N
+# exercise 5: Write a program which will ask the user for a number N
 # and print numbers from 1, 2, 3, 4,... untill their sum exceeds N
