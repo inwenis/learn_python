@@ -8,7 +8,7 @@
 # writing new scripts?
 # Fear no more! Because we can!
 
-# If you type in "python" in your terminal and do not give python any
+# If you type "python" in your terminal and do not give python any
 # file to execute, python will start the interactive shell. Now you
 # can type pieces of python code and once you press [enter] python
 # will execute the code.
@@ -39,8 +39,8 @@
 # The interactive shell allows to test multiline statements like for
 # loop. After you type the first line of the for loop the shell will
 # recoginze that you need to type another line of code so it will
-# allow you to type in more line before actually executing the code.
-# Python still will be stict about spaces and indents so remeber to
+# allow you to type in more lines before actually executing the
+# code. Python remains stict about spaces and indents so remeber to
 # use the correct indentation level.
 
 # > python
@@ -61,20 +61,20 @@
 # terminal and immidiately get results from python. As if talking to
 # python.
 # The name "shell" should not be confused with a beach shell.
-# Although it's a wall. The "interactive shell" is a wall between the
-# user (you) and the python interpreter or operating system (OS).
+# The "interactive shell" is a layer between the user (you) and the
+# python interpreter or operating system (OS).
 # What ever you type in the "interactive shell" will be passed to the
 # python interpreter. The python interpreter will further pass
 # commands to the OS.
 
-# Some more general information on "shells"
+# Some general information on "shells"
 
 # There are many different "shells" allowing users to communicate
 # with the OS. The "terminal" or "command line" aka "cmd" is one of
 # them. But since those shells are old and some operations are
 # cubmersome new shells are being created. For example at some point
 # Microsoft added a new shell to Windows called "PowerShell".
-# PowerShell allows to configure a Windows OS much more easily than
+# PowerShell allows to configure a Windows OS easier than the with
 # the old cmd. The PowerShell console looks exactly like the cmd
 # console, with the excepiton that it's blue and it "understand" all
 # the new commands.
