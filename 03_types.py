@@ -98,6 +98,7 @@ print("Value of p_double: " + str(p_double))
 tz_age = 22
 print("value of tz_age is " + str(tz_age))
 
+
 # exercise 2: create as many different variables as you need and
 # use conversion functions to convert:
 # - str to int

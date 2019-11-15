@@ -85,6 +85,7 @@ for x in things_to_do[::-1]:
 # f) print odd months
 # g) print even months from march to october
 
+
 # exercise 2: A coder's work is mostly reading existing code. Read
 # the commented code below and before running it, try to deduce what
 # will be the output of the code. Write it down, run the code, how
@@ -104,8 +105,10 @@ languages = ["C#", "Java", "Python", "JavaScript", "C", "C++", "Ruby"]
 # Then the program will compute the sum of all even numbers from
 # 0 to N.
 
+
 # exercise 4: Create a list with random numbers. Print only numbers
 # greater than 10.
+
 
 # exercise 5: Write a program whcih will ask the user for a number N
 # and print numbers from 1, 2, 3, 4,... untill their sum exceeds N
