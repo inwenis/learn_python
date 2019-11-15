@@ -3,7 +3,7 @@ import numpy
 for h in numpy.arange(1.5, 2, 0.020)[::-1]:
     print("%.2fm " % h, end="")
     for w in range(40, 150):
-        # ------- you should not modify doce above this line --------
+        # ------- you should not modify code above this line --------
 
         # exercise: Your task is to compute BMI, and based on the BMI
         # assign a text character to the variable bmi_symbol.
