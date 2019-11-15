@@ -20,14 +20,19 @@ print("like stars *******, numbers: 1,2,42,999")
 
 # As you noticed everything after a hash sign # is plain english and
 # is ignored by python. The hash sign # begins a comment - text
-# ignored by the python interpreter. Programmers use comments to
-# describe what the code is intended to do, or why it was written.
-# Below some examples of comments you might find in enterprise code:
+# ignored by the python interpreter.
+# During our classes comments are used for explanations and
+# exercises. Usually programmers use comments to describe what the
+# code is intended to do, or why it was written. Comments usually
+# are placed above code.
+# Sample comments from real large scale systems:
 
-# compute and display total debt for a customer
+# Should be removed when all business tools uses DeleteTrade (from ETRM/Allegro)
+
+# For multi hour trades, DST long day and DST short day are currently not handled correctly (from ETRM/Allegro)
 
 # compute stardard deviation for time series and add it to message
-# (I have no idea why, but finance department demanded it)
+# (I have no idea why, but finance department requested it)
 
 # shipping department has a bug in their system, this weird code is
 # a workaround, remove once shipping system is fixed!
