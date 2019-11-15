@@ -29,5 +29,5 @@ print("like stars *******, numbers: 1,2,42,999")
 # compute stardard deviation for time series and add it to message
 # (I have no idea why, but finance department demanded it)
 
-# shipping department has a bug in their system, this wierd code is
+# shipping department has a bug in their system, this weird code is
 # a workaround, remove once shipping system is fixed!
