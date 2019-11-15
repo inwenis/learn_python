@@ -3,8 +3,8 @@
 x = 42
 y = "Hello World"
 
-# Python distinguishes types of vlaues.
-# Varaible x stores an integer. An integer is a whole number without
+# Python distinguishes types of values.
+# Variable x stores an integer. An integer is a whole number without
 # fractions. The name "integer" is often abbrevianted as "int"
 # Variable y stores a string variable. A string is text. The name
 # "string" is often abbreviated as "str"
@@ -15,7 +15,7 @@ y = "Hello World"
 g = 4.2
 z = 12.001
 
-# this is a boolean variable, it can ony store True or False. Often
+# this is a boolean variable, it can only store True or False. Often
 # abbreviated as "bool"
 u = True
 j = False
@@ -37,13 +37,13 @@ hamlet_beg = "To be or "
 hamlet_all = hamlet_beg + " to code is the question!"
 
 # But we can not add int to str. If you uncomment the line below
-# Python will complaing that it does not know how to add a int and
+# Python will complain that it does not know how to add a int and
 # str.
 # d = x + hamlet_beg
 
 # For this reason we can not have a print statement like below
 # print("the value of x is " + x)
-# if you uncomment it python will complaing "can not add str to int"
+# if you uncomment it python will complain "can not add str to int"
 
 
 # How to convert one type to another?
@@ -83,8 +83,8 @@ p_double = float(p) * 2
 print("Value of p_double: " + str(p_double))
 
 # Note that since you can pass any text to int() and float() it is
-# possible that we accidentally will pass some unconverable text to
-# int() or float(). If this happens python will "throw an excetpion",
+# possible that we accidentally will pass some unconvertable text to
+# int() or float(). If this happens python will "throw an exception",
 # display an error message and stop execution.
 
 # uncomment the following lines to see what happens

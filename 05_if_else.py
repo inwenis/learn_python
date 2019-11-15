@@ -38,7 +38,7 @@ print(x) # x is now 50
 x = x + 3
 print(x) # x is now 53
 
-# The same applies to str variables and any other types
+# The same applies to str variables of other types
 a = "I like"
 a = a + " apples"
 print(a)

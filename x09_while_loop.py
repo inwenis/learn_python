@@ -1,32 +1,12 @@
-# we know we can use variables to compute their sum:
-a = 7
-b = 8
-c = a + b
-
-# but we can also compute "a + 1" and store it back to a
-print("a is now: " + str(a))
-a = a + 1
-print("a is now: " + str(a))
-
-# or we can multiply c by 2 and store it back to c
-print("c is now: " + str(c))
-c = c * 2
-print("c is now: " + str(c))
-
-# the same works for str variables
-hamlet = "To be or "
-print(hamlet)
-hamlet = hamlet + " to code is the question!"
-print(hamlet)
-
-# the value of a variable can be updated indefinitely
+# Remember that the value of a variable can be updated indefinitely
 w = "*"
 w = w + "*"
 print(w) # what will print(w) display?
 w = w + "*"
 print(w) # what will print(w) display now?
 
-# -----------------------------------------------
+# We already know the "for" loop. Python also offers another kind of
+# loop - 
 # loops - how to make a piece of code execute multiple times?
 how_many = 10
 current_iteration = 0
