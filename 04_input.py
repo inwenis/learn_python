@@ -4,8 +4,6 @@
 # input() will return text inputed by the user, we can store it in a
 # variable (see below)
 
-# we can concatenate text inputed and display it
-
 # usually before a input() we use a print() to let the user know
 # that we expect him to type something
 print("Please describe today's weather and press [enter]")
@@ -27,7 +25,7 @@ print("What year were you born in?")
 y_as_text = input()
 y = int(y_as_text)
 age = 2019 - y
-print("You are: " + str(age) + " (if it's still 2019)")
+print("You are: " + str(age))
 
 # exercise 1: write a program which will ask the user for his/hers
 # name and reply with a:
@@ -41,11 +39,12 @@ print("You are: " + str(age) + " (if it's still 2019)")
 
 
 # exercise 2: write a program which will ask the user for two
-# numbers, add them and display the sum. Make sure you're actually
-# adding the numbers, not concatenating them.
+# numbers, add them and display the sum.
+# Important: Make sure you're actually adding the numbers, not
+# concatenating text.
 
 
 # exercise 3: write a program which will ask the user for his/hers
-# weight (in kilograms) and weight (in meters) and compute BMI*.
+# weight (in kilograms) and height (in meters) and compute BMI*.
 # *BMI - Body Mass Index, a convinient rule of thumb allowing to
 # categorize a persons weight. BMI = weight / (height * height)
