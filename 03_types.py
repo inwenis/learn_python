@@ -12,13 +12,13 @@ y = "Hello World"
 # Other types in Python are:
 
 # this is a float, a fractional number
-g = 4.2
-z = 12.001
+euro_to_dkk = 7.47
+height = 160.5
 
 # this is a boolean variable, it can only store True or False. Often
 # abbreviated as "bool"
-u = True
-j = False
+batch_processing = True
+order_payed = False
 
 # We can easily do operations on:
 # - int and int
