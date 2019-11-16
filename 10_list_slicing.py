@@ -72,9 +72,9 @@ for x in things_to_do[::-1]:
     print(x)
 
 # Slicing lists might be confusing because of the many possibilities
-# it gives us: from/to/setpping/backwards/forwards. Don't worry if
-# you will need to comeback the the interactive shell again and agin
-# to remind your self how slicing works. I do it too all the time.
+# it provides: from/to/setpping/backwards/forwards. While coding use
+# the interactive shell to remind your self how slicing works. I do
+# it too all the time.
 
 # exercise 1: create a list with months.
 # a) print it forwards
@@ -91,18 +91,19 @@ for x in things_to_do[::-1]:
 # will be the output of the code. Write it down, run the code, how
 # many list slices did you predict correctly?
 
-languages = ["C#", "Java", "Python", "JavaScript", "C", "C++", "Ruby"]
-# print(languages[0:2])
-# print(languages[:])
-# print(languages[:4])
-# print(languages[-1:])
-# print(languages[-5:])
-# print(languages[::2])
-# print(languages[::-1])
-# print(languages[::-3])
+cities = ["Gdansk", "Gdynia", "Krakow", "Lodz", "Poznan", "Warsaw", "Wroclaw"]
+# print(cities[0:2])
+# print(cities[:])
+# print(cities[:4])
+# print(cities[-1:])
+# print(cities[-5:])
+# print(cities[::2])
+# print(cities[::-1])
+# print(cities[::-3])
+
 
 # exercise 3: Write a program which will ask the user for a number N.
-# Then the program will compute the sum of all even numbers from
+# The program will compute the sum of all even numbers from
 # 0 to N.
 
 
