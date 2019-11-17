@@ -45,8 +45,9 @@ print("done")
 
 
 # How to use a "while" loop with lists?
-# Python offers the len() function which can return the length of a list.
-# Knowing the length of a list we can loop over with a "while" loop
+# Python offers the len() function which can return the length of a
+# list. Knowing the length of a list we can loop over with a "while"
+# loop
 
 letters = ["a", "b", "c", "d", "e", "f"]
 length = len(letters)
@@ -57,8 +58,9 @@ while i < length:
     print(letters[i])
     i = i + 1
 
-# The variable name "i" is often used with loops. "i" stands for "index".
-# The advantage of "for" loops is that we don't have to manage an "index" variable.
+# A variable named "i" is often used with loops. "i" stands for
+# "index". The advantage of "for" loops is that we don't have to
+# manage an "index" variable.
 
 # exerice 3: what will be the output of the commented code below?
 # First try to predict the outcome and then run the code.
@@ -70,5 +72,6 @@ while i < length:
 #    print(grades[i])
 
 
-# exercise 4: rewrite exercise 1 & exercise 2 from 07_list.py using "while" loops.
+# exercise 4: rewrite exercise 1 & exercise 2 from 07_list.py using
+# "while" loops.
 # Which version of the code do you consider more readable?
