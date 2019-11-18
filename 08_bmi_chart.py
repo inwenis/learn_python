@@ -3,14 +3,14 @@ import numpy
 for h in numpy.arange(1.5, 2, 0.020)[::-1]:
     print("%.2fm " % h, end="")
     for w in range(40, 150):
-        # ------- you should not modify doce above this line --------
+        # ------- you should not modify code above this line --------
 
         # exercise: Your task is to compute BMI, and based on the BMI
         # assign a text character to the variable bmi_symbol.
         # The code will draw a BMI chart once you have completed the
         # exercise.
         # The variables w and h are already defined and contain:
-        # variable w - contains the weigth in kilograms
+        # variable w - contains the weight in kilograms
         # variable h - contains the height in meters
         # bmi_symbol should be assigned a character following rules:
         # for BMI less than 18 assign "<" (less than)

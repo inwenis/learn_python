@@ -30,13 +30,13 @@ else:
 # The value stored in a variable can be updated/changed. We can
 # change it's value as many times as required:
 x = 10
-print(x) # x is now 10
+print(x)  # x is now 10
 x = 50
-print(x) # x is now 50
+print(x)  # x is now 50
 # we can even use the current value of x, add something to it and
 # store it back to x
 x = x + 3
-print(x) # x is now 53
+print(x)  # x is now 53
 
 # The same applies to str variables of other types
 a = "I like"
@@ -46,7 +46,8 @@ print(a)
 
 # we can check for multiple conditions with elif:
 p = 50
-print("p is now " + str(p) + ". Would you like to add/remove 1 from it?")
+print("p is now " + str(p) +
+      ". Would you like to add/remove 1 from it?")
 answer = input()
 if answer == "add":
     p = p + 1
@@ -55,31 +56,32 @@ elif answer == "remove":
 else:
     print("sorry, what do you mean by " + answer + " ?")
 print("p is now " + str(p))
-# notice that to check if two vlaues are equal we use "==" . This is
-# beacuse the single equal sign "=" already means "assign value" in
+# notice that to check if two values are equal we use "==" . This is
+# because the single equal sign "=" already means "assign value" in
 # Python.
 
-# conditions can be nested:
+# if/else statements can be nested:
 print("did you sleep well today? (type yes/no and press [enter])")
 slept_well = input()
 if slept_well == "yes":
     print("I'm happy for you")
 else:
-    print("did you remember to not watch youtube in bed? (type yes/no and press [enter])")
+    print("did you remember to not watch youtube in bed?"
+          "(type yes/no and press [enter])")
     watched_youtube = input()
     if watched_youtube == "yes":
         print("That's wise")
     else:
-        print("maybe that's the issue?")
+        print("maybe that's the reason you didn't sleep well?")
 
-# What kind of check can we have in a "if" or "elif"?
+# What kind of checks can we use in a "if" or "elif"?
 # - test if values are equal ==
 # - test if greater          >
 # - test if less             <
-# - test if greate or equal  >=
+# - test if greater or equal >=
 # - test if less or equal    <=
 
-# To check for multiple condiditons we use a "and" or "or"
+# To check for multiple conditions we use a "and" or "or"
 print("Let's see if you're in you twenties.")
 print("What is your age? (type and press [enter])")
 age_as_text = input()

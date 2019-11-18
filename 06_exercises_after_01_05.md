@@ -1,5 +1,5 @@
 # Exercise 1 - Odd or even
-Write a program which asks the user for a numer and test if the
+Write a program which asks the user for a number and test if the
 number is odd or even. The program should output a message as shown
 below.
 ```
@@ -12,7 +12,7 @@ below.
 ```
 Hint: the [modulo](https://en.wikipedia.org/wiki/Modulo_operation)
 operation will be useful for this exercise. Python uses the `%` sign
-for modulo operaiton.
+for modulo operation.
 
 ## Solution
 
@@ -47,7 +47,7 @@ print("You will turn 50 in " + str(_50_birthdate))
 print("You will turn 100 in " + str(_100_birthdate))
 ```
 
-### Ad 1
+### Ad 1.
 Extend your program to also print how many years after the end of
 Napoleon wars the user was born.
 
@@ -98,10 +98,10 @@ o="You will turn 18 in "+str(x+18)+"\n"+\
 print(o)
 ```
 
-# Exerice 3 - Calculator
+# Exercise 3 - Calculator
 Write a simple calculator. The program should ask the user for two
 numbers and what operation to perform: +, -, *, / , %.
-Perform the operation on supplied numers and display the resut.
+Perform the operation on supplied numbers and display the result.
 
 Example:
 
@@ -183,7 +183,7 @@ from the interest.
 > Taxes: 19%
 > Period of deposit: 6 months
 > Interest: 81
-> Ttotal account after 6 months: 1081
+> Total account after 6 months: 1081
 ```
 
 ## Solution
