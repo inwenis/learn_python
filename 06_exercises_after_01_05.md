@@ -19,7 +19,7 @@ Write a program which will ask the user for his/hers birth date and
 print out when the user "turned"/"will turn" 18, 30, 50, 100 years
 old.
 
-### Ad 1
+### Ad 1.
 Extend your program to also print how many years after the end of
 Napoleon wars the user was born.
 
