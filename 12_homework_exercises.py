@@ -44,10 +44,6 @@
 # For each printed fibonacci number also print out the ratio of the current
 # Fibonacci number to the previous number.
 
-# What happens when you request a lot of Fibonacci numbers?
-# Ad 2. not mandatory exercise
-# Improve your solution so that even for large n numbers are computed quick
-
 # Exercise 6: Intersection
 # Create two lists of numbers. Write a programs which will print numbers:
 # a) present in both lists
