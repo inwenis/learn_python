@@ -55,7 +55,7 @@ g_constant = 9.8
 print("the value of variable g_constant is " + str(g_constant))
 
 # we could also do it as:
-g_constant_as_text = str(g)
+g_constant_as_text = str(g_constant)
 print("the value of g_constant is " + g_constant_as_text)
 
 # str() for bool
