@@ -82,6 +82,10 @@ print("Value of p_double: " + str(p_double))
 # v = int(v_desc)
 # Does the error message written by python make any sense to you?
 
+# Solution
+# Error in python tell which line of code caused the error. Also in
+# this case the error tells you that the error is because the text
+# can not be converted to an number
 
 # exercise 2: create variables of all types you know so far.
 # Display values of all variables in a print() with prepended text.
@@ -89,6 +93,15 @@ print("Value of p_double: " + str(p_double))
 tz_age = 22
 print("value of tz_age is " + str(tz_age))
 
+# Solution
+an_int = 123
+an_float = 123.123
+a_str = "text"
+a_bool = True
+print("value of an_int is "   + str(an_int))
+print("value of an_float is " + str(an_float))
+print("value of a_str is "    + str(a_str))
+print("value of a_bool is "   + str(a_bool))
 
 # exercise 3: create variables of different types and use conversion
 # functions to convert:
@@ -101,6 +114,19 @@ print("value of tz_age is " + str(tz_age))
 # - float to int, notice what happens to the fractional part of
 #   floats during conversion to int
 
+# Solution
+number_in_text = "123"
+converted_to_int = int(number_in_text)
+back_to_str = str(converted_to_int)
+a_bool = False
+bool_as_str = str(a_bool)
+float_in_text = "4.2"
+float_as_float = float(float_in_text)
+float_back_to_str = str(float_as_float)
+int_to_float = float(converted_to_int)
+float_to_int = int(float_as_float)
+print(float_as_float)
+print(float_to_int)  # the fractional part is lost
 
 # exercise 4: deliberately try to add str to int, float to str, and
 # see what happens when you execute the script. The error message
