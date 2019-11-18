@@ -37,6 +37,18 @@ print(welcome_message + " in " + current_season)
 # and print their sum, difference, product (multiplication),
 # quotient (division)
 
+# Solution
+a = 12345
+b = 99999
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
 
 # exercise 2: create two variables, assign some text to them and
 # display the concatenated text.
+
+# Solution
+x = "I like"
+y = "trains"
+print(x + y)
