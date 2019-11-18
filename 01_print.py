@@ -11,7 +11,7 @@ print("like stars *******, numbers: 1,2,42,999")
 
 
 # exercise 3: Use multiple print() to display a triangle from
-# asteriks.
+# asterisks.
 # *
 # **
 # ***
