@@ -45,7 +45,7 @@
 
 # Ad 1.
 # For each printed fibonacci number also print out the ratio of the
-# current previous number.
+# current to the previous number.
 
 # Exercise 6: Intersection
 # Create two lists of numbers. Write a programs which will print
