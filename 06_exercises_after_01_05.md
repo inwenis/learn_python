@@ -80,5 +80,5 @@ from the interest.
 > Taxes: 19%
 > Period of deposit: 6 months
 > Interest: 81
-> Ttotal account after 6 months: 1081
+> Total account after 6 months: 1081
 ```
