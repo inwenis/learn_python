@@ -46,7 +46,8 @@ print(a)
 
 # we can check for multiple conditions with elif:
 p = 50
-print("p is now " + str(p) + ". Would you like to add/remove 1 from it?")
+print("p is now " + str(p) +
+      ". Would you like to add/remove 1 from it?")
 answer = input()
 if answer == "add":
     p = p + 1
@@ -65,7 +66,8 @@ slept_well = input()
 if slept_well == "yes":
     print("I'm happy for you")
 else:
-    print("did you remember to not watch youtube in bed? (type yes/no and press [enter])")
+    print("did you remember to not watch youtube in bed?"
+          "(type yes/no and press [enter])")
     watched_youtube = input()
     if watched_youtube == "yes":
         print("That's wise")

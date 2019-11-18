@@ -8,7 +8,8 @@
 # that we expect him to type something
 print("Please describe today's weather and press [enter]")
 weather_desc = input()
-weather_desc_with_wow = "WOW! Is is really " + weather_desc + "? I love this kind of weather!"
+weather_desc_with_wow = "WOW! Is is really " + weather_desc +\
+                        "? I love this kind of weather!"
 print(weather_desc_with_wow)
 
 print("What country are you from?")

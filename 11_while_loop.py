@@ -11,7 +11,8 @@ print(i)  # what will print(i) display now?
 how_many = 10
 current_iteration = 0
 while current_iteration < how_many:
-    print("value of current_iteration is now: " + str(current_iteration))
+    print("value of current_iteration is now: "
+          + str(current_iteration))
     print("*")
     # any indented line of code is part of the loop
     # remember: in python indentations are very important!
