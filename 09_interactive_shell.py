@@ -3,6 +3,9 @@
 
 # Till now we have execute our python scripts by invoking the python
 # program from terminal and passing it a script to execute.
+# If you use PyCharm and run scripts with "right click" + "Run ...."
+# PyCharm invokes python.exe and passes the path to your script file
+# to python.exe
 
 # Wouldn't it be great if we could test small pieces of code without
 # writing new scripts?
@@ -12,10 +15,12 @@
 # file to execute, python will start the interactive shell. Now you
 # can type pieces of python code and once you press [enter] python
 # will execute the code.
+# Terminal = cmd = Command Prompt
+
+# To run Command Prompt in Windows press Windows key, type "cmd" and
+# press [enter]
 
 # > python
-# Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
-# Type "help", "copyright", "credits" or "license" for more information.
 # >>> print("hello")          <-- this you should type
 # hello                       <-- this python should display
 
@@ -25,8 +30,6 @@
 # In the interactive shell we can do anything we can do in a script:
 
 # > python
-# Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
-# Type "help", "copyright", "credits" or "license" for more information.
 # >>> a = 12
 # >>> b = 34
 # >>> c = a * b
@@ -36,12 +39,12 @@
 #                                 even need to type print(c)
 
 # Multi-line statements
-# The interactive shell allows to test multi-line statements like
+# The interactive shell allows to test multi-line statements like a
 # for loop. After you type the first line of the for loop the shell
-# will recognize that you need to type another line of code so it
-# will allow you to type in more lines before actually executing the
-# code. Python remains strict about spaces and indents so remember
-# to use the correct indentation level.
+# will recognize you started a loop and you will be able to type
+# more lines before executing your code. Python remains strict about
+# spaces and indents so remember to use the correct indentation
+# level.
 
 # > python
 # >>> my_list = ["A", 42, 24, "monkey"]
@@ -54,41 +57,17 @@
 # 42
 # 24
 # monkey
-# >>> 
 
 # The name "interactive shell" might be somewhat confusing.
 # The adjective "interactive" means that we can execute code in the
 # terminal and immediately get results from python. As if talking to
 # python.
-# The name "shell" should not be confused with a beach shell.
-# The "interactive shell" is a layer between the user (you) and the
+# "shell" is a synonym for a layer between the user (you) and the
 # python interpreter or operating system (OS).
 # What ever you type in the "interactive shell" will be passed to the
 # python interpreter. The python interpreter will further pass
 # commands to the OS.
 
-# Some general information on "shells"
-
-# There are many different "shells" allowing users to communicate
-# with the OS. The "terminal" or "command line" aka "cmd" is one of
-# them. But since those shells are old and some operations are
-# cumbersome new shells are being created. For example at some point
-# Microsoft added a new shell to Windows called "PowerShell".
-# PowerShell allows to configure a Windows OS easier than the with
-# the old cmd. The PowerShell console looks exactly like the cmd
-# console, with the exception that it's blue and it "understand" all
-# the new commands.
-# For example in the PowerShell terminal you could type:
-# > Write-Host 'Hello World' -BackgroundColor Red
-# This would output the text 'Hello World' on a red background. This
-# is nearly impossible in a cmd.
-# The windows which you usually use to configure you computer are
-# also considered a "shell". Those windows are a Graphical shell
-# allowing you to change setting of the OS.
-# Programmers like to give fancy names to things they create, so be
-# aware that a shell is just another program written by some
-# programmers with a very specific purpose of configuring computers
-# or talking to the OS.
 
 # exercise 1: Create a list of numbers and sum them in the
 # interactive shell
