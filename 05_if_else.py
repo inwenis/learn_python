@@ -96,6 +96,20 @@ if age >= 20 and age <= 29:
 # BMI from 25 to 29 is "Overweight"
 # BMI from 30 is "Obese"
 
+# Solution
+print("input your weight in kg")
+weight = float(input())
+print("input your height in meters")
+height = float(input())
+bmi = weight / (height * height)
+print("your BMI is " + str(bmi))
+if bmi < 25:
+    print("BMI category: Normal")
+elif 25 <= bmi < 29:  # means the same as "25 <= bmi and bmi < 29"
+    print("BMI category: Overweight")
+else:
+    print("BMI category: Obese")
+
 
 # exercise 2: Modify the BMI program to include all WHO categories.
 # | Category                                BMI (kg/m2)
