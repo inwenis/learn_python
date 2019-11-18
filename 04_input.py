@@ -32,6 +32,10 @@ print("You are: " + str(age))
 # name and reply with a:
 # "Hello [name here]! I'm flattered to meet you."
 
+# Solution
+print("Type in your name and press [enter]")
+name = input()
+print("Hello " + name + "! I'm flattered to meet you.")
 
 # tip: you can "comment out" the code above so you're not asked for
 # the weather every time. To "comment out" means to precede a line of
@@ -44,8 +48,22 @@ print("You are: " + str(age))
 # Important: Make sure you're actually adding the numbers, not
 # concatenating text.
 
+# Solution
+print("input number a and press [enter]")
+a = int(input())
+print("input number b and press [enter]")
+b = int(input())
+print(a+b)
 
 # exercise 3: write a program which will ask the user for his/hers
 # weight (in kilograms) and height (in meters) and compute BMI*.
 # *BMI - Body Mass Index, a convenient rule of thumb allowing to
 # categorize a persons weight. BMI = weight / (height * height)
+
+# Solution
+print("input your weight in kg")
+weight = float(input())
+print("input your height in meters")
+height = float(input())
+bmi = weight / (height * height)
+print("your BMI is " + str(bmi))
