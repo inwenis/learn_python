@@ -13,7 +13,7 @@ current_iteration = 0
 while current_iteration < how_many:
     print("value of current_iteration is now: " + str(current_iteration))
     print("*")
-    # any indendet line of code is part of the loop
+    # any indented line of code is part of the loop
     # remember: in python indentations are very important!
     current_iteration = current_iteration + 1
     # there can be as many lines of code in the loop as need
@@ -29,13 +29,13 @@ while i < 5:
     i = i + 1
 print("done")
 
-# exerice 1: using the above code sample write a program
-# which will ask the user for a number and print as many astrisks as
+# exercise 1: using the above code sample write a program
+# which will ask the user for a number and print as many asterisks as
 # the user requested.
 
 
-# exerice 2: modify the program from exercise 1 so that it prints a
-# triangle from astriks of any height requested by the user.
+# exercise 2: modify the program from exercise 1 so that it prints a
+# triangle from asterisks of any height requested by the user.
 # *
 # **
 # ***
@@ -62,7 +62,7 @@ while i < length:
 # "index". The advantage of "for" loops is that we don't have to
 # manage an "index" variable.
 
-# exerice 3: what will be the output of the commented code below?
+# exercise 3: what will be the output of the commented code below?
 # First try to predict the outcome and then run the code.
 
 #grades = [4.2, 3.7, 5.2, 2.5]

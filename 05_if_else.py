@@ -30,13 +30,13 @@ else:
 # The value stored in a variable can be updated/changed. We can
 # change it's value as many times as required:
 x = 10
-print(x) # x is now 10
+print(x)  # x is now 10
 x = 50
-print(x) # x is now 50
+print(x)  # x is now 50
 # we can even use the current value of x, add something to it and
 # store it back to x
 x = x + 3
-print(x) # x is now 53
+print(x)  # x is now 53
 
 # The same applies to str variables of other types
 a = "I like"
@@ -55,8 +55,8 @@ elif answer == "remove":
 else:
     print("sorry, what do you mean by " + answer + " ?")
 print("p is now " + str(p))
-# notice that to check if two vlaues are equal we use "==" . This is
-# beacuse the single equal sign "=" already means "assign value" in
+# notice that to check if two values are equal we use "==" . This is
+# because the single equal sign "=" already means "assign value" in
 # Python.
 
 # if/else statements can be nested:
@@ -76,10 +76,10 @@ else:
 # - test if values are equal ==
 # - test if greater          >
 # - test if less             <
-# - test if greate or equal  >=
+# - test if greater or equal >=
 # - test if less or equal    <=
 
-# To check for multiple condiditons we use a "and" or "or"
+# To check for multiple conditions we use a "and" or "or"
 print("Let's see if you're in you twenties.")
 print("What is your age? (type and press [enter])")
 age_as_text = input()

@@ -10,7 +10,7 @@ for h in numpy.arange(1.5, 2, 0.020)[::-1]:
         # The code will draw a BMI chart once you have completed the
         # exercise.
         # The variables w and h are already defined and contain:
-        # variable w - contains the weigth in kilograms
+        # variable w - contains the weight in kilograms
         # variable h - contains the height in meters
         # bmi_symbol should be assigned a character following rules:
         # for BMI less than 18 assign "<" (less than)

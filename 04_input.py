@@ -1,7 +1,7 @@
 # input() will make the program stop and wait for the user to input
 # some text and press [enter]
 
-# input() will return text inputed by the user, we can store it in a
+# input() will return text inputted by the user, we can store it in a
 # variable (see below)
 
 # usually before a input() we use a print() to let the user know
@@ -33,7 +33,7 @@ print("You are: " + str(age))
 
 
 # tip: you can "comment out" the code above so you're not asked for
-# the weater every time. To "comment out" means to preceed a line of
+# the weather every time. To "comment out" means to precede a line of
 # code with a # sign so that python will treat it as a comment and
 # ignore it.
 
@@ -46,5 +46,5 @@ print("You are: " + str(age))
 
 # exercise 3: write a program which will ask the user for his/hers
 # weight (in kilograms) and height (in meters) and compute BMI*.
-# *BMI - Body Mass Index, a convinient rule of thumb allowing to
+# *BMI - Body Mass Index, a convenient rule of thumb allowing to
 # categorize a persons weight. BMI = weight / (height * height)

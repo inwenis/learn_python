@@ -4,24 +4,24 @@
 # We already know how to access items in a list by using their
 # indexes
 fruits = ["apple", "carrot", "banana"]
-print(fruits[1]) # will print "carrot" since indexes starts at 0
+print(fruits[1])  # will print "carrot" since indexes starts at 0
 
-# Sometimes we might need to access items from the end insted of from
-# the beginning like we do with indexes.
+# Sometimes we might need to access items from the end instead of
+# from the beginning like we do with indexes.
 # Lists in Python support "negative indexing" allowing us to access
 # items from the end
-print(fruits[-1]) # index -1 refers to the last item
-print(fruits[-2]) # index -2 refers to the second last item, etc...
+print(fruits[-1])  # index -1 refers to the last item
+print(fruits[-2])  # index -2 refers to the second last item, etc...
 
 # Slicing lists is also very useful if we need to extract a sublist.
-# We do this by specyfying from/to indexes
+# We do this by specifying from/to indexes
 fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 fruits_sub_list = fruits[2:5]
 print(fruits_sub_list)
 
 # Using slicing we can also get a sublist from the tail using
 # negative indexing
-print(fruits[-5:-1]) # notice that here "mango" will not be printed
+print(fruits[-5:-1])  # notice that here "mango" will not be printed
 
 # In case of slicing from the end -1 means the second last element
 # hence above we will not get "mango". If we need a sublist including
@@ -34,7 +34,7 @@ print(fruits[0:5])
 
 # We can even create a slice of a list containing the whole list.
 # Later we will find out why this is useful
-print(fruits[:]) # by not specifying from/to we get the whole list
+print(fruits[:])  # by not specifying from/to we get the whole list
 
 # Can we ask python to return a slice of a list, but only every
 # second element? We can:
@@ -45,7 +45,7 @@ print(even_from_first_5)
 #         | | |
 #         start from the second item which is "2" (numbers[0] is "1")
 #           | |
-#           take elements untill index 5 exclusive (aka. 4 inclusive)
+#           take elements until index 5 exclusive (aka. 4 inclusive)
 #             |
 #             take every 2nd (second) item
 # The same way we can ask for every 3rd, 4th, ... item.
@@ -55,8 +55,8 @@ print(even_from_first_5)
 print(numbers[::2])
 
 # We can even ask for items from the end setting step to -1
-print(numbers[::-1]) # reversed list
-print(numbers[::-2]) # every second item of a reversed list
+print(numbers[::-1])  # reversed list
+print(numbers[::-2])  # every second item of a reversed list
 
 # Reversing lists is very useful because often we will need to
 # process a list from the end.
@@ -72,7 +72,7 @@ for x in things_to_do[::-1]:
     print(x)
 
 # Slicing lists might be confusing because of the many possibilities
-# it provides: from/to/setpping/backwards/forwards. While coding use
+# it provides: from/to/stepping/backwards/forwards. While coding use
 # the interactive shell to remind your self how slicing works. I do
 # it too all the time.
 
@@ -81,7 +81,7 @@ for x in things_to_do[::-1]:
 # b) print it backwards
 # c) print sublist of winter months
 # d) print sublist of summer months reversed
-# e) print months of II and III quater
+# e) print months of II and III quoter
 # f) print odd months
 # g) print even months from march to october
 
@@ -112,4 +112,4 @@ cities = ["Gdansk", "Gdynia", "Krakow", "Lodz", "Poznan", "Warsaw", "Wroclaw"]
 
 
 # exercise 5: Write a program which will ask the user for a number N
-# and print numbers from 1, 2, 3, 4,... untill their sum exceeds N
+# and print numbers from 1, 2, 3, 4,... until their sum exceeds N

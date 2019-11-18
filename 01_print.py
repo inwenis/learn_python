@@ -31,7 +31,7 @@ print("like stars *******, numbers: 1,2,42,999")
 
 # For multi hour trades, DST long day and DST short day are currently not handled correctly (from ETRM/Allegro)
 
-# compute stardard deviation for time series and add it to message
+# compute standard deviation for time series and add it to message
 # (I have no idea why, but finance department requested it)
 
 # shipping department has a bug in their system, this weird code is

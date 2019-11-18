@@ -5,7 +5,7 @@ y = "Hello World"
 
 # Python distinguishes types of values.
 # Variable x stores an integer. An integer is a whole number without
-# fractions. The name "integer" is often abbrevianted as "int"
+# fractions. The name "integer" is often abbreviated as "int"
 # Variable y stores a string variable. A string is text. The name
 # "string" is often abbreviated as "str"
 
@@ -25,7 +25,7 @@ order_payed = False
 # - int and float
 # - str and str
 a = x + 50
-price_in_dkk = 12 * euro_to_dkk # this is multiplication
+price_in_dkk = 12 * euro_to_dkk  # this is multiplication
 dkk_to_euro = 1 / euro_to_dkk
 
 hamlet_beg = "To be or "
@@ -78,7 +78,7 @@ p_double = float(p) * 2
 print("Value of p_double: " + str(p_double))
 
 # Note that since you can pass any text to int() and float() it is
-# possible that we accidentally pass some unconvertable text to
+# possible that we accidentally pass some inconvertible text to
 # int() or float(). If this happens python will "throw an exception",
 # display an error message and stop execution.
 
@@ -90,7 +90,7 @@ print("Value of p_double: " + str(p_double))
 
 
 # exercise 2: create variables of all types you know so far.
-# Display values of all variables in a print() with preceeding text.
+# Display values of all variables in a print() with prepended text.
 # Example:
 tz_age = 22
 print("value of tz_age is " + str(tz_age))
@@ -104,14 +104,14 @@ print("value of tz_age is " + str(tz_age))
 # - str to float
 # - float to str
 # - int to float
-# - float to int, notice what hapens to the fractional part of
+# - float to int, notice what happens to the fractional part of
 #   floats during conversion to int
 
 
-# exercise 4: deliberetely try to add str to int, float to str, and
+# exercise 4: deliberately try to add str to int, float to str, and
 # see what happens when you execute the script. The error message
 # should tell you in which line of code python encountered an issue.
 # There should also be a description of the error. Being able to read
 # error messages is very helpful.
-# Deliberetely try to convert unconvertable strings to int and float
+# Deliberately try to convert inconvertible strings to int and float
 # to see error messages.

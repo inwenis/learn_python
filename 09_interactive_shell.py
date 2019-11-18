@@ -1,5 +1,5 @@
 # This file is not about a new part of the python language. It's
-# about aonther way to execute python code.
+# about another way to execute python code.
 
 # Till now we have execute our python scripts by invoking the python
 # program from terminal and passing it a script to execute.
@@ -35,13 +35,13 @@
 # >>> c                       <-- to see a variables value we don't
 #                                 even need to type print(c)
 
-# Multiline statements
-# The interactive shell allows to test multiline statements like for
-# loop. After you type the first line of the for loop the shell will
-# recoginze that you need to type another line of code so it will
-# allow you to type in more lines before actually executing the
-# code. Python remains stict about spaces and indents so remeber to
-# use the correct indentation level.
+# Multi-line statements
+# The interactive shell allows to test multi-line statements like
+# for loop. After you type the first line of the for loop the shell
+# will recognize that you need to type another line of code so it
+# will allow you to type in more lines before actually executing the
+# code. Python remains strict about spaces and indents so remember
+# to use the correct indentation level.
 
 # > python
 # >>> my_list = ["A", 42, 24, "monkey"]
@@ -58,7 +58,7 @@
 
 # The name "interactive shell" might be somewhat confusing.
 # The adjective "interactive" means that we can execute code in the
-# terminal and immidiately get results from python. As if talking to
+# terminal and immediately get results from python. As if talking to
 # python.
 # The name "shell" should not be confused with a beach shell.
 # The "interactive shell" is a layer between the user (you) and the
@@ -72,11 +72,11 @@
 # There are many different "shells" allowing users to communicate
 # with the OS. The "terminal" or "command line" aka "cmd" is one of
 # them. But since those shells are old and some operations are
-# cubmersome new shells are being created. For example at some point
+# cumbersome new shells are being created. For example at some point
 # Microsoft added a new shell to Windows called "PowerShell".
 # PowerShell allows to configure a Windows OS easier than the with
 # the old cmd. The PowerShell console looks exactly like the cmd
-# console, with the excepiton that it's blue and it "understand" all
+# console, with the exception that it's blue and it "understand" all
 # the new commands.
 # For example in the PowerShell terminal you could type:
 # > Write-Host 'Hello World' -BackgroundColor Red
@@ -86,7 +86,7 @@
 # also considered a "shell". Those windows are a Graphical shell
 # allowing you to change setting of the OS.
 # Programmers like to give fancy names to things they create, so be
-# aware that a shell is just another program writted by some
+# aware that a shell is just another program written by some
 # programmers with a very specific purpose of configuring computers
 # or talking to the OS.
 

@@ -10,7 +10,7 @@ print(x)
 # Important!
 # Notice that print("x") means something different than print(x)
 # The former tells python to display the text "x", where as the
-# latter tells python to display the value of varaible x.
+# latter tells python to display the value of variable x.
 
 # We can create as many variables as we need.
 my_age = 42
@@ -38,5 +38,5 @@ print(welcome_message + " in " + current_season)
 # quotient (division)
 
 
-# exercise 2: create two variables, assgin some text to them and
+# exercise 2: create two variables, assign some text to them and
 # display the concatenated text.
