@@ -5,10 +5,15 @@ print("like stars *******, numbers: 1,2,42,999")
 # exercise 1: Use print() to display "Hello world" in the console
 # Do one exercise at a time.
 
+# Solution
+print("Hello world")
 
 # exercise 2: Use print() to display some asterisks (this is a
 # asterisk -> * )
 
+# Solution
+print("*")
+print("* * ** ***")
 
 # exercise 3: Use multiple print() to display a triangle from
 # asterisks.
@@ -17,6 +22,11 @@ print("like stars *******, numbers: 1,2,42,999")
 # ***
 # ****
 
+# Solution
+print("*")
+print("**")
+print("***")
+print("****")
 
 # As you noticed everything after a hash sign # is plain english and
 # is ignored by python. The hash sign # begins a comment - text
