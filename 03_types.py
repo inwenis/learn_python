@@ -1,5 +1,5 @@
 # Previously we have created variables and assigned different values
-# to them. Both text values and numbers.
+# to them. Both text and numbers.
 x = 42
 y = "Hello World"
 
@@ -43,7 +43,7 @@ hamlet_all = hamlet_beg + " to code is the question!"
 # How to convert one type to another?
 
 # Sometimes we will have text containing numbers and would like to
-# add it like a int.
+# add it like an int.
 # Sometimes we want to display value of a int variable like in
 # line 39.
 
@@ -51,22 +51,16 @@ hamlet_all = hamlet_beg + " to code is the question!"
 # types
 
 # str() to convert anything (int/float/bool) to str
-g = 42
-# print("the value of g is " + g) # this will not work
-print("the value of g is " + str(g)) # this will work
-
-# we could also do it as:
-g = 42
-g_as_text = str(g)
-print("the value of g is " + g_as_text)
-
-# str() for float
 g_constant = 9.8
 print("the value of variable g_constant is " + str(g_constant))
 
+# we could also do it as:
+g_constant_as_text = str(g)
+print("the value of g_constant is " + g_constant_as_text)
+
 # str() for bool
 love_for_python = True
-print("do you already love python?" + str(love_for_python))
+print("Already love python? My love is " + str(love_for_python))
 
 # int() and float() to convert from something to int or float
 h = "123"
@@ -113,5 +107,3 @@ print("value of tz_age is " + str(tz_age))
 # should tell you in which line of code python encountered an issue.
 # There should also be a description of the error. Being able to read
 # error messages is very helpful.
-# Deliberately try to convert inconvertible strings to int and float
-# to see error messages.

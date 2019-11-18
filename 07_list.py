@@ -56,7 +56,7 @@ for x in numbers:
 
         # print(..., end="") tell python to display some text to the
         # console but does not move the cursor to next line
-    print() # an empty print() moves the cursor to next line
+    print()  # an empty print() moves the cursor to next line
 
 # nest if under a for loop
 for x in numbers:

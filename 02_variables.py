@@ -17,7 +17,7 @@ my_age = 42
 birth_year = 1980
 a = 999
 # Variable names can not contain spaces.
-# Name of a variable should hint what it will be used for.
+# Variable's name should hint what it will be used for.
 pi = 3.14
 current_season = "November"
 welcome_message = "Welcome to our homepage"
