@@ -1,9 +1,9 @@
 # Remember that the value of a variable can be updated indefinitely
 i = 0
 i = i + 1
-print(i) # what will print(i) display?
+print(i)  # what will print(i) display?
 i = i + 1
-print(i) # what will print(i) display now?
+print(i)  # what will print(i) display now?
 
 # We already know the "for" loop. Python also offers the "while"
 # loop
