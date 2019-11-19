@@ -1,9 +1,9 @@
-# Because lists are a very important data type we will learn more
-# about what we can do with lists
+# Lists are very useful. In this scripts we will learn how to slice
+# lists.
 
 # We already know how to access items in a list by using their
 # indexes
-fruits = ["apple", "carrot", "banana"]
+fruits = ["apple", "carrot", "banana", "tomato"]
 print(fruits[1])  # will print "carrot" since indexes starts at 0
 
 # Sometimes we might need to access items from the end instead of
@@ -16,16 +16,18 @@ print(fruits[-2])  # index -2 refers to the second last item, etc...
 # Slicing lists is also very useful if we need to extract a sublist.
 # We do this by specifying from/to indexes
 fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# positive |  0  |    1    |    2    |    3    |   4   |    5   |    6   |
+#          ---------------------------------------------------------------
+# negative | -7  |   -6    |   -5    |   -4    |  -3   |   -2   |   -1   |
 fruits_sub_list = fruits[2:5]
 print(fruits_sub_list)
 
 # Using slicing we can also get a sublist from the tail using
 # negative indexing
 print(fruits[-5:-1])  # notice that here "mango" will not be printed
+# becuse the "to" index is always exclusive
 
-# In case of slicing from the end -1 means the second last element
-# hence above we will not get "mango". If we need a sublist including
-# the last element, this is how we do it
+# If we need a sublist including the last element
 print(fruits[-5:])
 
 # To get first the first 5 elements of a list we can do either:
@@ -45,11 +47,12 @@ print(even_from_first_5)
 #         | | |
 #         start from the second item which is "2" (numbers[0] is "1")
 #           | |
-#           take elements until index 5 exclusive (aka. 4 inclusive)
+#           take elements until index 5 exclusive
 #             |
 #             take every 2nd (second) item
 # The same way we can ask for every 3rd, 4th, ... item.
-# The numbers used for slicing are usually named: [from:to:step]
+# The numbers used for slicing are usually named: [from:to:step] or
+# [start:stop:step]
 
 # To get every second item from the whole list:
 print(numbers[::2])
@@ -58,8 +61,30 @@ print(numbers[::2])
 print(numbers[::-1])  # reversed list
 print(numbers[::-2])  # every second item of a reversed list
 
+# Why is this slice empty?
+print(numbers[0:3:-1])
+# This slice is empty because we set the start to index 0 and the
+# step to -1 (going left) but there are no items in the list before
+# the 0 element.
+# |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+# -------------------------------------------------------
+# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
+#  start              stop
+#  <- direction
+
+# If we set "start" to the right of "stop" we should get an nonempty
+# slice
+print(numbers[7:3:-1])
+# This slice is empty because we set the start to index 0 and the
+# step to -1 (going left) but there are no items in the list before
+# the 0 element.
+# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+#                     stop                   start
+#                            *     *     *     * <- direction
+
+
 # Reversing lists is very useful because often we will need to
-# process a list from the end.
+# process a list from the tail.
 
 things_to_do = ["hover", "iron", "dishes", "walk", "read book", "code"]
 
@@ -72,9 +97,8 @@ for x in things_to_do[::-1]:
     print(x)
 
 # Slicing lists might be confusing because of the many possibilities
-# it provides: from/to/stepping/backwards/forwards. While coding use
-# the interactive shell to remind your self how slicing works. I do
-# it too all the time.
+# it provides. While coding use the interactive shell to remind your
+# self how slicing works.
 
 # exercise 1: create a list with months.
 # a) print it forwards
@@ -105,10 +129,6 @@ cities = ["Gdansk", "Gdynia", "Krakow", "Lodz", "Poznan", "Warsaw", "Wroclaw"]
 # exercise 3: Write a program which will ask the user for a number N.
 # The program will compute the sum of all even numbers from
 # 0 to N.
-
-
-# exercise 4: Create a list with random numbers. Print only numbers
-# greater than 10.
 
 
 # exercise 5: Write a program which will ask the user for a number N
