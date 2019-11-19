@@ -41,11 +41,11 @@ print(fruits[:])  # by not specifying from/to we get the whole list
 # Can we ask python to return a slice of a list, but only every
 # second element? We can:
 numbers = list(range(0, 10))
-even_from_first_5 = numbers[1:5:2]
+even_from_first_5 = numbers[0:5:2]
 print(even_from_first_5)
-# numbers[1:5:2] - explanation:
+# numbers[0:5:2] - explanation:
 #         | | |
-#         start from the second item which is "2" (numbers[0] is "1")
+#         start from the index 0
 #           | |
 #           take elements until index 5 exclusive
 #             |
@@ -66,22 +66,29 @@ print(numbers[0:3:-1])
 # This slice is empty because we set the start to index 0 and the
 # step to -1 (going left) but there are no items in the list before
 # the 0 element.
-# |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+# |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | items
 # -------------------------------------------------------
-# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
+# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  | indexes
 #  start              stop
 #  <- direction
 
 # If we set "start" to the right of "stop" we should get an nonempty
-# slice
+# slice with step -1
 print(numbers[7:3:-1])
-# This slice is empty because we set the start to index 0 and the
-# step to -1 (going left) but there are no items in the list before
-# the 0 element.
-# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+# |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | items
+# -------------------------------------------------------
+# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  | indexes
 #                     stop                   start
 #                            *     *     *     * <- direction
 
+# We can express the same using negative indexing
+print(numbers[-2:3:-1])
+# |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | items
+# -------------------------------------------------------
+# |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  | indexes pos
+# | -9  | -8  | -7  | -6  | -5  | -4  | -3  | -2  | -1  | indexes neg
+#                     stop                   start
+#                            *     *     *     * <- direction
 
 # Reversing lists is very useful because often we will need to
 # process a list from the tail.
@@ -119,11 +126,13 @@ cities = ["Gdansk", "Gdynia", "Krakow", "Lodz", "Poznan", "Warsaw", "Wroclaw"]
 # print(cities[0:2])
 # print(cities[:])
 # print(cities[:4])
-# print(cities[-1:])
 # print(cities[-5:])
 # print(cities[::2])
 # print(cities[::-1])
 # print(cities[::-3])
+# print(cities[0:1:-3])
+# print(cities[-1:1:-1])
+# print(cities[-1:-9:-2])
 
 
 # exercise 3: Write a program which will ask the user for a number N.
