@@ -90,7 +90,7 @@ print("min = " + str(min))
 # exercise 2: Display all odd numbers from 1 to 50.
 
 
-# exercise 3: Sum all numbers in range 1 to 100.
+# exercise 3: Sum numbers from 1 to 100.
 
 
 # exercise 4: Create a list with hardcoded random numbers. Find the
