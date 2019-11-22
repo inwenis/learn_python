@@ -101,7 +101,7 @@ for n in range(1, 51, 2): # remember that upper index is exclusive
 for n in range(1, 51)[::2]:
     print(n)
 
-# exercise 3: Sum all numbers in range 1 to 100.
+# exercise 3: Sum numbers from 1 to 100.
 
 # Solution
 sum = 0
