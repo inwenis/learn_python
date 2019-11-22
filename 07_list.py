@@ -86,12 +86,28 @@ print("min = " + str(min))
 # exercise 1: Create a list with names of months and display all of
 # them.
 
+# Solution
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+for m in months:
+    print(m)
 
 # exercise 2: Display all odd numbers from 1 to 50.
 
+# Solution
+for n in range(1, 51, 2): # remember that upper index is exclusive
+    print(n)
+
+# Solution 2
+for n in range(1, 51)[::2]:
+    print(n)
 
 # exercise 3: Sum all numbers in range 1 to 100.
 
+# Solution
+sum = 0
+for n in range(1, 101):
+    sum += n
+print(sum)
 
 # exercise 4: Create a list with hardcoded random numbers. Find the
 # largest number in that list.
