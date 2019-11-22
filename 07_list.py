@@ -93,7 +93,7 @@ print("min = " + str(min))
 # exercise 3: Sum all numbers in range 1 to 100.
 
 
-# exercise 4: Create a list filled with random numbers. Find the
+# exercise 4: Create a list with hardcoded random numbers. Find the
 # largest number in that list.
 
 
