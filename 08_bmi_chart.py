@@ -23,6 +23,8 @@ for h in numpy.arange(1.5, 2, 0.020)[::-1]:
 
         # modify the below if/else so correct characters are assigned
         # to bmi_symbol depending on value of BMI
+
+        # Solution
         bmi = w / (h*h)
         if bmi < 18:
             bmi_symbol = "<"
