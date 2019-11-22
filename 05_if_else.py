@@ -126,3 +126,20 @@ else:
 # | Obese Class IV (Morbidly Obese)       | 45   | 50   |
 # | Obese Class V (Super Obese)           | 50   | 60   |
 # | Obese Class VI (Hyper Obese)          | 60   |      |
+
+# Solution
+weight = float(input("input your weight in kg     > "))
+height = float(input("input your height in meters > "))
+bmi = weight / (height * height)
+print("your BMI is " + str(bmi))
+if           bmi < 15:   print("BMI category: Very severely underweight")
+elif 15   <= bmi < 16:   print("BMI category: Severely underweight")
+elif 16   <= bmi < 18.5: print("BMI category: Underweight")
+elif 18.5 <= bmi < 25:   print("BMI category: Normal")
+elif 25   <= bmi < 30:   print("BMI category: Overweight")
+elif 30   <= bmi < 35:   print("BMI category: Obese Class I (Moderately obese)")
+elif 35   <= bmi < 40:   print("BMI category: Obese Class II (Severely obese)")
+elif 40   <= bmi < 45:   print("BMI category: Obese Class III (Very severely obese)")
+elif 45   <= bmi < 50:   print("BMI category: Obese Class IV (Morbidly obese)")
+elif 50   <= bmi < 60:   print("BMI category: Obese Class V (Super obese)")
+elif 60   <= bmi:        print("BMI category: Obese Class VI (Hyper obese)")
