@@ -112,6 +112,16 @@ print(sum)
 # exercise 4: Create a list with hardcoded random numbers. Find the
 # largest number in that list.
 
+# Solution
+nums = [1, 100, 20, 50, 70, 1, 70, 4, 235, 2, 35, 55]
+x = 0
+for n in nums:
+    if n > x:
+        x = n
+print(x)
+
+# Solution 2
+print(max(nums))
 
 # exercise 5: Display a rectangle from * with width and height
 # specified by the user. Example:
@@ -123,6 +133,13 @@ print(sum)
 # *******
 # *******
 
+# Solution
+width = int(input("please provide width > "))
+height = int(input("please provide height > "))
+for line in range(0, height):
+    for column in range(0, width):
+        print("*", end="")
+    print()
 
 # exercise 6: Check if a number provided by the user is prime. A
 # prime number is a number which can only be divided without a
@@ -132,3 +149,19 @@ print(sum)
 # Hot to check if a number x is prime?
 # One solution is to loop over numbers from 2 to x-1 and check if x
 # can be divided without a reminder by any of them.
+
+# Solution
+num = int(input("Input number to be checked > "))
+if num == 1:
+    print("prime")
+elif num == 2:
+    print("prime")
+else:
+    found = False
+    for divisor in range(2, int(num/2) + 1):
+        if num % divisor == 0:
+            found = True
+    if found:
+        print("not prime")
+    else:
+        print("prime")
