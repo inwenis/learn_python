@@ -109,12 +109,27 @@ for x in things_to_do[::-1]:
 
 # exercise 1: create a list with months.
 # a) print it forwards
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+print("\n month reversed")
+print(months)
 # b) print it backwards
+print("\n month backwards")
+print(months[::-1])
 # c) print sublist of winter months
+print("\nwinter")
+print(months[-2:] + months[:2])
 # d) print sublist of summer months reversed
+print("\nsummer reversed")
+print(months[-4:-9:-1])
 # e) print months of II and III quoter
+print("\nII and III quoter")
+print(months[3:9])
 # f) print odd months
+print("\nodd months")
+print(months[::2])
 # g) print even months from march to october
+print("\neven months from march to october")
+print(months[3:10:2])
 
 
 # exercise 2: A coder's work is mostly reading existing code. Read
@@ -123,22 +138,44 @@ for x in things_to_do[::-1]:
 # many list slices did you predict correctly?
 
 cities = ["Gdansk", "Gdynia", "Krakow", "Lodz", "Poznan", "Warsaw", "Wroclaw"]
-# print(cities[0:2])
-# print(cities[:])
-# print(cities[:4])
-# print(cities[-5:])
-# print(cities[::2])
-# print(cities[::-1])
-# print(cities[::-3])
-# print(cities[0:1:-3])
-# print(cities[-1:1:-1])
-# print(cities[-1:-9:-2])
+# print(cities[0:2]) # first 2
+# print(cities[:]) # whole list
+# print(cities[:4]) # first four
+# print(cities[-5:]) # all from and including Krakow
+# print(cities[::2]) # every second, starting with Gdansk
+# print(cities[::-1]) # all reversed
+# print(cities[::-3]) # every 3rd from tail: Wroclaw, Lodz, Gdansk
+# print(cities[0:1:-3]) # none
+# print(cities[-1:1:-1]) # reversed exclusing first 2
+# print(cities[-1:-9:-2]) # every second from tail
 
 
 # exercise 3: Write a program which will ask the user for a number N.
 # The program will compute the sum of all even numbers from
 # 0 to N.
 
+# Solution
+n = int(input("Provide a number"))
+s = 0
+for i in range(1, n+1):
+    if i % 2 == 0:
+        s += i
+print(s)
+
+# Solution 2
+s = 0
+for i in range(2, n+1, 2):
+    s += i
+print(s)
 
 # exercise 5: Write a program which will ask the user for a number N
 # and print numbers from 1, 2, 3, 4,... until their sum exceeds N
+
+# Solution
+n = int(input("Provide a number"))
+s = 0
+for i in range(1, 99999):
+    print(str(i) + ", ", end="")
+    s += i
+    if s > n:
+        break
