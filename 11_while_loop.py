@@ -34,6 +34,12 @@ print("done")
 # which will ask the user for a number and print as many asterisks as
 # the user requested.
 
+# Solution
+max = int(input("How many * do u want? > "))
+i = 0
+while i < max:
+    print("*")
+    i = i + 1
 
 # exercise 2: modify the program from exercise 1 so that it prints a
 # triangle from asterisks of any height requested by the user.
@@ -44,6 +50,14 @@ print("done")
 # *****
 # ...
 
+# Solution
+max = int(input("How many * do u want? > "))
+asterisks = "*"
+i = 0
+while i < max:
+    print(asterisks)
+    i = i + 1
+    asterisks += "*"
 
 # How to use a "while" loop with lists?
 # Python offers the len() function which can return the length of a
@@ -72,7 +86,24 @@ while i < length:
 #while i < grades:
 #    print(grades[i])
 
+# Solution
+# Since the i variable is never incremented the loop will run for
+# ever
 
 # exercise 4: rewrite exercise 1 & exercise 2 from 07_list.py using
 # "while" loops.
 # Which version of the code do you consider more readable?
+
+# Solution
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+i = 0
+to = len(months)
+while i < to:
+    print(months[i])
+    i += 1
+
+i = 0
+while i <= 50:
+    if i % 2 == 0:
+        print(i)
+    i += 1
