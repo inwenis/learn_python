@@ -5,6 +5,15 @@
 # 1 2 3 4 5 6 7 8 9 10
 # 3 + 5 + 6 + 9 + 10 = 33
 
+# Solution
+# n = input("Provide n > ")  # commented out for easier testing
+n = 10
+s = 0
+for i in range(1, n+1):
+    if i % 3 == 0 or i % 5 == 0:
+        s += i
+print(s)
+
 # Exercise 2 - Factorial
 # Write a program which will compute n factorial.
 # n factorial denoted as n! is the product of all numbers less than
