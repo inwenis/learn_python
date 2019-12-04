@@ -146,6 +146,29 @@ for i in range(1, 30):
 # a) present in both lists
 # a) present only in first list
 
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+b = [6, 7, 8, 9, 10, 11]
+
+print("Exercise 6 -------------------------------------------------")
+print(a)
+print(b)
+print("intersection:")
+for x in a:
+    for y in b:
+        if x == y:
+            print(x, end="")
+            print(",", end="")
+print()
+
+print("items only in a:")
+for x in a:
+    found = False
+    for y in b:
+        if x == y:
+            found = True
+    if not found:
+        print(x, end="")
+        print(",", end="")
 
 # Exercise 7: Fizz Buzz
 # Write a program that prints the numbers from 1 to 100. For
