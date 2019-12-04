@@ -69,8 +69,37 @@ print(reversed_text)
 #    * *
 #    ***
 
+# Solution
+print("Exercise 4 -------------------------------------------------")
+print("***")
+print("* *")
+print("***")
+
 # Ad 1.
 # Modify the program so that the user can specify the side length.
+w = 5
+h = 4
+square = ""
+square += "*" * w + "\n"
+for i in range(0, h-2):
+    for i in range(0, w):
+        if i == 0 or i == w-1:
+            square += "*"
+        else:
+            square += " "
+    square += "\n"
+square += "*" * w
+
+print(square)
+
+# more compact solution:
+square = ""
+square += "*" * w + "\n"
+for i in range(0, h-2):
+    square += "*" + " " * (w - 2) + "*\n"
+square += "*" * w
+
+print(square)
 
 # Exercise 5 - Fibonacci
 # Write a program which will print out n elements of the fibonacci
