@@ -146,13 +146,15 @@ for i in range(1, 30):
 # a) present in both lists
 # a) present only in first list
 
+# Solution
+
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 b = [6, 7, 8, 9, 10, 11]
 
 print("Exercise 6 -------------------------------------------------")
 print(a)
 print(b)
-print("intersection:")
+print("a) intersection:")
 for x in a:
     for y in b:
         if x == y:
@@ -160,7 +162,7 @@ for x in a:
             print(",", end="")
 print()
 
-print("items only in a:")
+print("b) items only in a:")
 for x in a:
     found = False
     for y in b:
@@ -169,9 +171,22 @@ for x in a:
     if not found:
         print(x, end="")
         print(",", end="")
+print()
 
 # Exercise 7: Fizz Buzz
 # Write a program that prints the numbers from 1 to 100. For
 # multiples of three print "Fizz" instead of the number and for
 # multiples of five print "Buzz". For numbers which are multiples of
 # both three and five print "FizzBuzz".
+
+# Solution
+print("Exercise 7 -------------------------------------------------")
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
