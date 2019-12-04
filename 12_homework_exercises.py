@@ -113,9 +113,32 @@ print(square)
 # 5
 # 8
 
+# Solution
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(1, n):
+        b_old = b
+        b = b + a
+        a = b_old
+    return b
+
+print("Exercise 5 -------------------------------------------------")
+print(fibonacci(1))
+print(fibonacci(2))
+print(fibonacci(3))
+print(fibonacci(4))
+print(fibonacci(5))
+print(fibonacci(10))
+
 # Ad 1.
 # For each printed fibonacci number also print out the ratio of the
 # current to the previous number.
+
+for i in range(1, 30):
+    fib_prev = fibonacci(i-1)
+    fib_i = fibonacci(i)
+    print("fib(" + str(i) +") = " + str(fib_i) + "ratio=" + str(fib_i/fib_prev) )
 
 # Exercise 6: Intersection
 # Create two lists of numbers. Write a programs which will print
