@@ -24,22 +24,16 @@ print("sum of multiples of 3 and 5 lower than " + str(n) + " is "+ str(s))
 # 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
 
 # Solution
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        s = 1
-        for i in range(1, n+1):
-            s *= i
-        return s
-
 print("Exercise 2 -------------------------------------------------")
-print("factorial(0) = " + str(factorial(0)))
-print("factorial(1) = " + str(factorial(1)))
-print("factorial(2) = " + str(factorial(2)))
-print("factorial(3) = " + str(factorial(3)))
-print("factorial(4) = " + str(factorial(4)))
-print("factorial(10) = " + str(factorial(10)))
+n = 10
+print("factorial of " + str(n))
+if n == 0:
+    print(1)
+else:
+    s = 1
+    for i in range(1, n+1):
+        s *= i
+    print(s)
 
 # Exercise 3 - Reversed
 # Write a program which will reverse text inputted by the user.
@@ -114,31 +108,29 @@ print(square)
 # 8
 
 # Solution
-def fibonacci(n):
-    a = 0
-    b = 1
-    for i in range(1, n):
-        b_old = b
-        b = b + a
-        a = b_old
-    return b
-
 print("Exercise 5 -------------------------------------------------")
-print(fibonacci(1))
-print(fibonacci(2))
-print(fibonacci(3))
-print(fibonacci(4))
-print(fibonacci(5))
-print(fibonacci(10))
+n = 10
+a = 0
+b = 1
+print("fibonacci of " + str(n))
+for i in range(1, n):
+    b_old = b
+    b = b + a
+    a = b_old
+print(b)
 
 # Ad 1.
 # For each printed fibonacci number also print out the ratio of the
 # current to the previous number.
 
-for i in range(1, 30):
-    fib_prev = fibonacci(i-1)
-    fib_i = fibonacci(i)
-    print("fib(" + str(i) +") = " + str(fib_i) + "ratio=" + str(fib_i/fib_prev) )
+n = 20
+a = 0
+b = 1
+for i in range(1, n):
+    b_old = b
+    b = b + a
+    a = b_old
+    print(str(b) + " ratio = " + str(b/b_old))
 
 # Exercise 6: Intersection
 # Create two lists of numbers. Write a programs which will print
@@ -147,7 +139,6 @@ for i in range(1, 30):
 # a) present only in first list
 
 # Solution
-
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 b = [6, 7, 8, 9, 10, 11]
 
