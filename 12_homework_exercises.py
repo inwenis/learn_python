@@ -6,7 +6,7 @@
 # 3 + 5 + 6 + 9 + 10 = 33
 
 # Solution
-# n = input("Provide n > ")  # commented out for easier testing
+# n = input("Provide n > ")  # commented for easier testing
 n = 10
 s = 0
 for i in range(1, n+1):
@@ -45,6 +45,12 @@ print("factorial(10) = " + str(factorial(10)))
 # Write a program which will reverse text inputted by the user.
 # input:  "coding in python is fun"
 # output: "nuf si nohtyp ni gnidoc"
+
+# Solution
+# text = input("Provide some text to be reversed > ")  # commented for easier testing
+text =  "coding in python is fun"
+print("Exercise 3 -------------------------------------------------")
+print(text[::-1])
 
 # tip: strings are just lists of characters
 # Complete the exercise:
