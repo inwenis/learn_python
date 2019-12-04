@@ -12,7 +12,9 @@ s = 0
 for i in range(1, n+1):
     if i % 3 == 0 or i % 5 == 0:
         s += i
-print(s)
+
+print("Exercise 1 -------------------------------------------------")
+print("sum of multiples of 3 and 5 lower than " + str(n) + " is "+ str(s))
 
 # Exercise 2 - Factorial
 # Write a program which will compute n factorial.
@@ -20,6 +22,24 @@ print(s)
 # or equal to n.
 # 3! = 3 * 2 * 1 = 6
 # 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
+
+# Solution
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        s = 1
+        for i in range(1, n+1):
+            s *= i
+        return s
+
+print("Exercise 2 -------------------------------------------------")
+print("factorial(0) = " + str(factorial(0)))
+print("factorial(1) = " + str(factorial(1)))
+print("factorial(2) = " + str(factorial(2)))
+print("factorial(3) = " + str(factorial(3)))
+print("factorial(4) = " + str(factorial(4)))
+print("factorial(10) = " + str(factorial(10)))
 
 # Exercise 3 - Reversed
 # Write a program which will reverse text inputted by the user.
