@@ -57,6 +57,12 @@ print(text[::-1])
 # a) using slicing
 # b) without slicing
 
+# Solution without slicing
+reversed_text = ""
+for i in range(len(text) - 1, -1, -1):
+    reversed_text += text[i]
+print(reversed_text)
+
 # Exercise 4 - Square
 # Write a program which will print a square from asterisks.
 #    ***
