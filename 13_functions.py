@@ -130,6 +130,18 @@ print("smallest number is " + str(find_min(nums)))
 # parameters a and b, and returns a^b (a to the power of b).
 # hint: you will need: a `for` loop, `range()`, and multiplication.
 
+# Solution
+def pow(a, b):
+    r = 1
+    for i in range(0, b):
+        r = r * a
+    return r
+
+print(pow(2, 3))
+print(pow(1, 10))
+print(pow(10, 10))
+print(pow(3, 3))
+print(pow(2, 10))
 
 # Functions can also be used to improve the structure and readablity
 # of our code (even if they are used just once). Sometimes our code
