@@ -25,8 +25,8 @@ print(l)
 # in bar() we have 2 lists in memory, x and l. Althogh x initially
 # points to the same list as l, we create a new list and point x to
 # it in L10.
-
-# TODO add more images here
+# The ascii art below tries to explain what happend in the memory
+# during execution of lines L6-L17
 
 # Memory in L13
 # |---------|
@@ -34,7 +34,13 @@ print(l)
 # |---------|
 # |---------|
 
-# Memory during foo() execution
+# Memory just before L7 is executed
+# |---------|
+# |-[1,2,3]-| <-l   <-x
+# |---------|
+# |---------|
+
+# Memory after L7 is executed
 # |---------|
 # |-[1,9,3]-| <-l   <-x
 # |---------|
@@ -46,22 +52,41 @@ print(l)
 # |---------|
 # |---------|
 
-# Memory during bar() execution
+# Memory just before L10 is executed
+# |---------|
+# |-[1,9,3]-| <-l   <-x
+# |---------|
+# |---------|
+
+# Memory after L10 is executed
 # |---------|
 # |-[1,9,3]-| <-l
-# |---------|
 # |-[1,2,3]-| <-x
+# |---------|
 # |---------|
 
 # Memory in L17
 # |---------|
 # |-[1,9,3]-| <-l
-# |---------|
+# |---------| (the list is forgotten once we exit bar())
 # |---------|
 
-# TODO filip - exercise here
+# exercise 1: write a function replace_odd(lst) which will replace
+# all numbers on odd indexes with a 0 in a list.
 
-# functions can call other functions
+# replace_odd([1, 2, 10, 15, 100, 1, 2, 3])
+# expected result: [1, 0, 10, 0, 100, 0, 2, 0]
+
+# tip: how to loop over a list using the lists indexes?
+lst = [1, 2, 10, 15, 100, 1, 2, 3]
+length_of_lst = len(lst)
+for i in range(0, length_of_lst):
+    print(lst[i])
+
+# Functions can call other functions:
+
+def create_greeting(name):
+    return "Good morning " + name
 
 def create_very_greeting(name):
     regular_greeting = create_greeting(names)
@@ -70,12 +95,29 @@ def create_very_greeting(name):
 
 create_very_greeting("Mark")
 
-# exercises
-# wirte a function which will accept a list and int and check if the int is in the list
-# should be used like:
-# c = contains([1,2,3,4], 5)
-# should return True/False
+# exercises 2: wirte a function which will accept a list and a number
+# and check if the number is in the list.
 
-# ex2
-# create a function 
-TODO need more here
+# example:
+# c = contains([1,2,3,4], 5) # should return False
+
+
+# exericse 3: write a function which creates a list with Fibonacci
+# numbers.
+
+# example:
+# f = generate_fibbo(7)
+# print(f) # should print [0, 1, 1, 2, 3, 5, 8]
+
+# tip: how to create a list and append values to it?
+lst = [] # this is an empty list
+lst.append(1)
+lst.append(2)
+print(lst)
+
+# the same can be achieved using list addition
+lst = [] # this is an empty list
+lst = lst + [1]
+lst = lst + [2]
+lst = lst + [3, 4]
+print(lst)
