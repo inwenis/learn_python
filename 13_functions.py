@@ -115,13 +115,15 @@ def simple_greeting(name):
 # exercise 1: complete the xxx function so that it finds the smallest
 # value in a list
 
+# Solution
 def find_min(values):
-    # TODO - complete the function - find the minimum value in list
-    # `values`.
-    # remeber that function's body must be indented
-    return 0 # once you find the minimal value return it here insted of returning a 0
+    minimum = values[0]
+    for x in values:
+        if x < minimum:
+            minimum = x
+    return minimum
 
-nums = [1, 10, 2, 45, 7, 12, 10]
+nums = [99, 17, 10, 2, 45, 7, 12, 10]
 print("smallest number is " + str(find_min(nums)))
 
 # exercise 2: from scratch write a function which accepts two int
