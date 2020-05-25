@@ -121,7 +121,7 @@ def find_min(values):
     # remeber that function's body must be indented
     return 0 # once you find the minimal value return it here insted of returning a 0
 
-nums = [1, 10, 2, 45, 7, 12, 10]
+nums = [99, 17, 10, 2, 45, 7, 12, 10]
 print("smallest number is " + str(find_min(nums)))
 
 # exercise 2: from scratch write a function which accepts two int
