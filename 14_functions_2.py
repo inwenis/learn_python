@@ -143,3 +143,26 @@ lst = lst + [1]
 lst = lst + [2]
 lst = lst + [3, 4]
 print(lst)
+
+# Solution
+def fibonacci(n):
+    a = 0
+    b = 1
+    if n == 0:
+        return a
+    for i in range(0, n-1):
+        temp = a+b
+        a = b
+        b = temp
+    return b
+
+def fibonacci_list(n):
+    lst = []
+    for i in range(0, n+1):
+        lst.append(fibonacci(i))
+    return lst
+
+print(fibonacci_list(0))
+print(fibonacci_list(1))
+print(fibonacci_list(10))
+print(fibonacci_list(20))
