@@ -11,7 +11,8 @@ If you're teaching a group of people, some understanding what a variable or func
 
 ## How much time?
 People with prior experience finish them in 2-3 h.
-People with no prior experience usually are somewhere in script 7 after 2-3 hours.
+
+People with no prior experience usually finish on script 7 after 2-3 hours.
 
 ## Where to find solution?
 On the `solutions` branch [here](https://github.com/inwenis/learn_python/tree/soluitons)
