@@ -89,11 +89,12 @@ def create_greeting(name):
     return "Good morning " + name
 
 def create_very_greeting(name):
-    regular_greeting = create_greeting(names)
+    regular_greeting = create_greeting(name)
     very_greeting = "very " + regular_greeting
     return regular_greeting
 
-create_very_greeting("Mark")
+very_greeting = create_very_greeting("Mark")
+print(very_greeting)
 
 # exercises 2: wirte a function which will accept a list and a number
 # and check if the number is in the list.
