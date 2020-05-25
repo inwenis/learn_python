@@ -186,3 +186,36 @@ print("your BMI is " + str(bmi) + " category: " + category)
 
 # exercise 3: wirte fibonacci(n) funciton which accepts an integer n
 # and returns the n-th Fibonacci number.
+
+# Solution
+def fibonacci(n):
+    a = 0
+    b = 1
+    if n == 0:
+        return a
+    for i in range(0, n-1):
+        temp = a+b
+        a = b
+        b = temp
+    return b
+
+print("fibonacci(0) = " + str(fibonacci(0)) + " expected = 0")
+print("fibonacci(1) = " + str(fibonacci(1)) + " expected = 1")
+print("fibonacci(2) = " + str(fibonacci(2)) + " expected = 1")
+print("fibonacci(3) = " + str(fibonacci(3)) + " expected = 2")
+print("fibonacci(9) = " + str(fibonacci(9)) + " expected = 34")
+
+# Solution using recursion
+def fibonacci_r(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci_r(n-1) + fibonacci_r(n-2)
+
+print("fibonacci(0) = " + str(fibonacci_r(0)) + " expected = 0")
+print("fibonacci(1) = " + str(fibonacci_r(1)) + " expected = 1")
+print("fibonacci(2) = " + str(fibonacci_r(2)) + " expected = 1")
+print("fibonacci(3) = " + str(fibonacci_r(3)) + " expected = 2")
+print("fibonacci(9) = " + str(fibonacci_r(9)) + " expected = 34")
