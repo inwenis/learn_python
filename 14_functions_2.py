@@ -26,6 +26,8 @@ print(l)
 # points to the same list as l, we create a new list and point x to
 # it in L10.
 
+# TODO add more images here
+
 # Memory in L13
 # |---------|
 # |-[1,2,3]-| <-l
