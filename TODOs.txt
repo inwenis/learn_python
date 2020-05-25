@@ -27,3 +27,4 @@ Ideas:
         - maybe a version with more build in functions for more advanced ppl
           more material, less explenations
     - add a README and "where to go next"?
+    - remove markdown exercises (some people will try to run them as a .py file)
