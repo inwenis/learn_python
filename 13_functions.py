@@ -56,7 +56,7 @@ print(message3)
 #   ('return message' statement)
 
 message1 = create_greeting(names[0], hour_now)
-#                         --------------------
+#                         ____________________
 # When invoking a function we give it values by putting them in
 # paranthesis and separating them by comas (as underlined above). The
 # invocation of create_greeting() in L58 will set names=names[0] and
