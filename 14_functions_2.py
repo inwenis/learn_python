@@ -83,6 +83,16 @@ length_of_lst = len(lst)
 for i in range(0, length_of_lst):
     print(lst[i])
 
+# Solution
+def replace_odd(lst):
+    for i in range(0, len(lst)):
+        if i % 2 == 1:
+            lst[i] = 0
+    return lst
+replaced = replace_odd([1, 2, 10, 15, 100, 1, 2, 3])
+print(replaced)
+
+
 # Functions can call other functions:
 
 def create_greeting(name):
