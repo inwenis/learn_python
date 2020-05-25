@@ -26,3 +26,4 @@ Ideas:
     - more details about lists/types without so many explanations
         - maybe a version with more build in functions for more advanced ppl
           more material, less explenations
+    - add a README and "where to go next"?
