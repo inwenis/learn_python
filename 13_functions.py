@@ -64,7 +64,7 @@ message1 = create_greeting(names[0], hour_now)
 
 # We can use our function also in a loop:
 for n in names:
-    msg = create_greeting(n, hour)
+    msg = create_greeting(n, hour_now)
     print(msg)
 
 # Function do not have to acctept input parameters
