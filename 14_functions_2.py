@@ -112,6 +112,17 @@ print(very_greeting)
 # example:
 # c = contains([1,2,3,4], 5) # should return False
 
+# Solution
+def contains(lst, n):
+    for x in lst:
+        if x == n:
+            return True
+    return False
+
+c = contains([1,2,3,4], 5)
+print(c)
+c = contains([1,2,3,4], 2)
+print(c)
 
 # exericse 3: write a function which creates a list with Fibonacci
 # numbers.
