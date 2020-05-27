@@ -35,8 +35,12 @@ def bmi_to_symbol(w, h):
 # tip: you'll need to create a list and append values to it in a loop
 def float_range(beg, end, step):
     # TODO: complete the float_range function.
-    iter = int((end - beg) / step)
-    return [beg + x * step for x in range(0, iter)]
+    steps_total = int((end - beg) / step)
+    values = []
+    for i in range(0, steps_total):
+        value = beg + i * step
+        values.append(value)
+    return values
 
 # --------------- do not modify code below this line ----------------
 print()
