@@ -106,7 +106,7 @@ def simple_greeting(name):
 #  - return - python keyword used to tell "my function returns this
 #    value"
 
-# Function names follow same rules as varible names:
+# Function names follow same rules as variable names:
 #  - must start with a letter or _ character
 #  - can not contains spaces
 #  - by convention words are separated by _
