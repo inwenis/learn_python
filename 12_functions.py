@@ -94,7 +94,7 @@ def compute_bmi(weight, height):
 def simple_greeting(name):
     return "Welcome " + name
 
-# Lets disect the simple_greeting() function and name it's parts:
+# Lets disect the simple_greeting() function and name its parts:
 #  - def - python keyword used to tell python "hey, we're definng a
 #    function"
 #  - function name - "simple_greeting"
