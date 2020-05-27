@@ -38,10 +38,6 @@ def float_range(beg, end, step):
     iter = int((end - beg) / step)
     return [beg + x * step for x in range(0, iter)]
 
-
-
-
-
 # --------------- do not modify code below this line ----------------
 print()
 print("                                                   BMI Chart")
