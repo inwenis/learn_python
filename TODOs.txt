@@ -1,54 +1,30 @@
-1. more on lists
+Could do scripts about:
+    - more on lists - functions
+    - text is a list
+    - string split
+    - data structures
+    - datetime
+    - dictionaries
+    - classes
+    - character details
+    - tuple/sets
+    - lambda
+    - array
+    - classes
+    - try except
+    - files
+    - module/packages/pip
+    - regex
+    - working with excel
+    - break/continue
 
-text is list
-string split
-data structures
-functions
-datetime
-while
-classes
-character details
-more on lists
-dictionaries
-tuple/sets
-lambda
-array
-classes
-try except
-files
-module/packages/pip
-regex
-working with excel
-break/continue
+More exercises:
+    - what will this code output?
+    - exercise with fixing errors
 
-look for some existing python course, see how they teach basics
-
-more exercises
-also exercises "what will this code output?"
-
-exercise with fixing errors
-more details about lists/types without so many explanations
-once funciton are defined. Note that some funciton are invoked on
-variables like list.sort()
-
-# a "while" loop can be nested under an "if"
-# a "if/elif/else" can also be nested under a "while" loop
-print("on a 1-10 scale, how well are you today? (type and press [enter])")
-happiness = int(input())
-if happiness > 5:
-    i = 0
-    while i < happiness:
-        print("happy!")
-        i = i + 1
-
-# exercie 1: modify the asterisks-triangle program so that it will
-# not print triangles higher than 20. When the user input a number
-# greater than 20 we should inform him that the number is too large
-
-# exercise 2: modify the asterisks-triangle program so that it will
-# also print triangles of height 20-30 but preceed them with a
-# message: "you're quite demanding, but I'll manage!"
-
-# exercise 3: extend the asterisks-triangle program so that it will
-# also print triangles of height 30-40 but preceed them with a
-# message: "watch out! you're near the limit!"
+Ideas:
+    - more details about lists/types without so many explanations
+        - maybe a version with more build in functions for more advanced ppl
+          more material, less explenations
+    - add a README and "where to go next"?
+    - remove markdown exercises (some people will try to run them as a .py file)
