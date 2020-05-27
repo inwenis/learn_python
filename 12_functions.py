@@ -106,14 +106,14 @@ def simple_greeting(name):
 #  - return - python keyword used to tell "my function returns this
 #    value"
 
-# Function names follow same rules as variable names:
+# Function names follow the same rules as variable names:
 #  - must start with a letter or _ character
-#  - can not contains spaces
+#  - can not contain spaces
 #  - by convention words are separated by _
 #  - by convention letters are lower case
 
-# exercise 1: complete the xxx function so that it finds the smallest
-# value in a list
+# exercise 1: complete the find_min() function so that it finds the
+# smallest value in a list
 
 # Solution
 def find_min(values):
@@ -144,7 +144,7 @@ print(pow(3, 3))
 print(pow(2, 10))
 
 # Functions can also be used to improve the structure and readablity
-# of our code (even if they are used just once). Sometimes our code
+# of our code (even if they are used only once). Sometimes our code
 # will consist of few steps and we would like to clearly separete
 # them for the sake of readablity.
 
@@ -170,7 +170,7 @@ print("your BMI is " + str(bmi) + " category: " + category)
 
 # When writing a funciton you can ask your self "should my function
 # return a value or print it immediately?". As a general rule of
-# thumb assume that it's preffered for functions return values.
+# thumb assume that it's preffered for functions to return values.
 # There are at least 2 reasons:
 #  - makes automated unit testing easier/possible (unit testing is
 #    not convered by these introductory scripts)
@@ -180,9 +180,9 @@ print("your BMI is " + str(bmi) + " category: " + category)
 # does not print it.
 
 # Althought we just now started writing functions, we have already
-# used them a lot. So far we were using funciton written by the
-# authors of the python language.
-# print()/int()/input()/... - all of them are functions.
+# used them a lot. So far we used funciton written by the authors of
+# python.
+# print()/int()/input()/... - all are functions.
 
 # exercise 3: wirte fibonacci(n) funciton which accepts an integer n
 # and returns the n-th Fibonacci number.
