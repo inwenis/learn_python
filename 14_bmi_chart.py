@@ -1,6 +1,4 @@
-import numpy
-
-for h in numpy.arange(1.5, 2, 0.020)[::-1]:
+for h in [x * 0.02 + 1.5 for x in range(0,26)][::-1]:
     print("%.2fm " % h, end="")
     for w in range(40, 150):
         # ------- you should not modify code above this line --------
