@@ -20,11 +20,10 @@ print(l)
 
 # When we call foo() and bar() "x" is just another name for a list
 # called "l". Because "x" is pointing to the same exact list in
-# memory as "l" modyfying x[1] changes the value in the list.
-# But in bar() we actually create a new list and point x to it. Hence
-# in bar() we have 2 lists in memory, x and l. Althogh x initially
-# points to the same list as l, we create a new list and point x to
-# it in L10.
+# memory as "l" modyfying x[1] changes the value in that list.
+# But in bar() we create a new list and point x to it. Hence in bar()
+# we have 2 lists in memory, x and l. Althogh x initially points to
+# the same list as l, we create a new list and point x to it in L10.
 # The ascii art below tries to explain what happend in the memory
 # during execution of lines L6-L17
 
