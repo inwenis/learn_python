@@ -15,7 +15,7 @@ People with prior experience finish them in 2-3 h.
 People with no prior experience usually finish on script 7 after 2-3 hours.
 
 ## Where to find solution?
-On the `solutions` branch [here](https://github.com/inwenis/learn_python/tree/soluitons)
+On the `solutions` branch [here](https://github.com/inwenis/learn_python/tree/solutions)
 
 ## Sample class plan
 Python classes I've conducted are 4 x 4h, once a week.
