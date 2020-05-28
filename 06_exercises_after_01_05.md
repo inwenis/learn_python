@@ -27,7 +27,7 @@ else:
 ```
 
 # Exercise 2 - Napoleon is history
-Write a program which will ask the user for his/hers birth date and
+Write a program which will ask the user for his/hers birth year and
 print out when the user "turned"/"will turn" 18, 30, 50, 100 years
 old.
 
