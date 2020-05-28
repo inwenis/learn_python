@@ -89,12 +89,15 @@ Rewrite your program using as few characters as possible.
 
 ## Solution
 ```Python
+a = "You will turn "
+b = " in "
+n = "\n"
 x=int(input("Please type in your birth year"))
-o="You will turn 18 in "+str(x+18)+"\n"+\
-"You will turn 30 in "+str(x+30)+"\n"+\
-"You will turn 50 in "+str(x+50)+"\n"+\
-"You will turn 100 in "+str(x+100)+"\n"+\
-"You were born "+str(x-1815)+" years after end of Napoleon wars"
+o = a + "18"  + b + str(x+18)   + n +\
+    a + "30"  + b + str(x+30)   + n +\
+    a + "50"  + b + str(x+50)   + n +\
+    a + "100" + b + str(x+100)  + n +\
+"You were born "  + str(x-1815) + " years after end of Napoleon wars"
 print(o)
 ```
 
