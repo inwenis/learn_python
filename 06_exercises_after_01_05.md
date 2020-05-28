@@ -89,10 +89,11 @@ Rewrite your program using as few characters as possible.
 
 ## Solution
 ```Python
+# I kept redundant spaces so the program remains comprehensible
 a = "You will turn "
 b = " in "
 n = "\n"
-x=int(input("Please type in your birth year"))
+x = int(input("Please type in your birth year"))
 o = a + "18"  + b + str(x+18)   + n +\
     a + "30"  + b + str(x+30)   + n +\
     a + "50"  + b + str(x+50)   + n +\
