@@ -102,6 +102,15 @@ o = a + "18"  + b + str(x+18)   + n +\
 print(o)
 ```
 
+## Solution 2
+Using python featuer not yet covered by these intro scripts we can
+shorten our code even further
+```Python
+a, b, x = "You will turn ", " in ", int(input("Please type in your birth year"))
+o = f"{a}18{b}{x+18}\n{a}30{b}{x+30}\n{a}50{b}{x+50}\n{a}100{b}{x+100}\nYou were born {x-1815} years after end of Napoleon wars"
+print(o)
+```
+
 # Exercise 3 - Calculator
 Write a simple calculator. The program should ask the user for two
 numbers and what operation to perform: +, -, *, / , %.
