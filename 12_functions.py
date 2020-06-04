@@ -172,3 +172,12 @@ print("your BMI is " + str(bmi) + " category: " + category)
 
 # exercise 3: wirte fibonacci(n) funciton which accepts an integer n
 # and returns the n-th Fibonacci number.
+
+
+# exercise 4: create a function which given a list of users will
+# generate the "Liked by" facebook message.
+# If a post is liked by a single person X just return "Liked by X".
+# If a post is liked by 2 people return "Liked by X and Y"
+# If a post is liked by 3 people return "Liked by X, Y and 1 other"
+# If a post is liked by 4+ people return "Liked by X, Y and Z others"
+# Test your function using lists of different lengths
