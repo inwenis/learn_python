@@ -69,7 +69,7 @@ while i < length:
 #grades = [4.2, 3.7, 5.2, 2.5]
 #length = len(grades)
 #i = 0
-#while i < grades:
+#while i < length:
 #    print(grades[i])
 
 
