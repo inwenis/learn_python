@@ -93,7 +93,7 @@ print(numbers[-2:3:-1])
 # Reversing lists is very useful because often we will need to
 # process a list from the tail.
 
-things_to_do = ["hover", "iron", "dishes", "walk", "read book", "code"]
+things_to_do = ["hoover", "iron", "dishes", "walk", "read book", "code"]
 
 print("wrong order of doing things:")
 for x in things_to_do:
