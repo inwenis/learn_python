@@ -227,3 +227,21 @@ print("fibonacci(9) = " + str(fibonacci_r(9)) + " expected = 34")
 # If a post is liked by 3 people return "Liked by X, Y and 1 other"
 # If a post is liked by 4+ people return "Liked by X, Y and Z others"
 # Test your function using lists of different lengths
+
+# Solution
+def liked_by(users):
+    if len(users) == 1:
+        return "Liked by " + users[0]
+    elif len(users) == 2:
+        return "Liked by " + users[0] + " and " + users[1]
+    elif len(users) == 3:
+        return "Liked by " + users[0] + ", " + users[1] + " and 1 other"
+    else:
+        x = len(users) - 2
+        return "Liked by " + users[0] + ", " + users[1] + " and " + str(x) + " others"
+
+print(liked_by(["Mark"]))
+print(liked_by(["Mark", "Molly"]))
+print(liked_by(["Mark", "Molly", "Julia"]))
+print(liked_by(["Mark", "Molly", "Julia", "Bessy"]))
+print(liked_by(["Mark", "Molly", "Julia", "Bessy", "Jack"]))
