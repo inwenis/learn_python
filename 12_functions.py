@@ -95,7 +95,7 @@ def simple_greeting(name):
     return "Welcome " + name
 
 # Lets disect the simple_greeting() function and name its parts:
-#  - def - python keyword used to tell python "hey, we're definng a
+#  - def - python keyword used to tell python "hey, we're defining a
 #    function"
 #  - function name - "simple_greeting"
 #  - function arguments - "name" - values which we need to supply
